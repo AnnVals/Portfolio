@@ -143,7 +143,7 @@ export default function Hero() {
   };
 
   return (
-    <div className="relative bg-gradient-to-br from-slate-950 via-indigo-950 to-slate-900 min-h-screen overflow-hidden">
+    <div className="relative bg-linear-to-br from-slate-950 via-indigo-950 to-slate-900 min-h-screen overflow-hidden">
       <div className="absolute inset-0">
         {Array.from({ length: 200 }, (_, i) => (
           <div
@@ -192,10 +192,10 @@ export default function Hero() {
             <div className="card-emerge-capaldi">
               <div className="bg-slate-900/85 backdrop-blur-md rounded-2xl shadow-2xl shadow-slate-900/40 p-8 max-w-4xl border border-slate-700/50">
                 <div className="flex flex-col md:flex-row gap-8 items-center">
-                    
-                  <div className="flex-shrink-0">
+
+                  <div className="shrink-0">
                     <div className="relative photo-rotate">
-                      <div className="w-80 h-80 rounded-2xl bg-gradient-to-br from-slate-600 to-blue-800 p-1.5">
+                      <div className="w-80 h-80 rounded-2xl bg-linear-to-br from-slate-600 to-blue-800 p-1.5">
                         <div className="w-full h-full rounded-2xl bg-slate-900 flex items-center justify-center overflow-hidden">
                           <img
                             src="/Yo.jpg"
