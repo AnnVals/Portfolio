@@ -11,8 +11,8 @@ function App() {
     <>
       <Hero />
       <Timeline />
-      <About />
       <TechnicalSkills />
+      <About />
       <ContactMe />
     </>
   )
