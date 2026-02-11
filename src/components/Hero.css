@@ -3,6 +3,7 @@
     perspective: 1500px;
     perspective-origin: center center;
 }
+
 @keyframes time-vortex {
     0% {
         transform: scale(1);
@@ -17,12 +18,15 @@
         opacity: 0;
     }
 }
+
 .time-vortex {
     animation: time-vortex 1.5s ease-out forwards;
 }
+
 .time-rings {
     pointer-events: none;
 }
+
 .time-ring {
     position: absolute;
     border: 2px solid rgba(255, 255, 255, 0.7);
@@ -32,6 +36,7 @@
     transform: translate(-50%, -50%);
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
+
 @keyframes ring-expand {
     0% {
         width: 20px;
@@ -44,15 +49,19 @@
         opacity: 0;
     }
 }
+
 .ring-1 {
     animation: ring-expand 1.8s ease-out forwards;
 }
+
 .ring-2 {
     animation: ring-expand 1.8s ease-out 0.15s forwards;
 }
+
 .ring-3 {
     animation: ring-expand 1.8s ease-out 0.3s forwards;
 }
+
 @keyframes card-fade-in {
     0% {
         opacity: 0;
@@ -63,10 +72,26 @@
         transform: scale(1);
     }
 }
+
 .card-emerge-capaldi {
     opacity: 0;
     animation: card-fade-in 4s ease-out 0.5s forwards;
 }
+
+.card-wrapper-3d {
+    transform-style: preserve-3d;
+    animation: floatCard 6s ease-in-out infinite;
+}
+
+@keyframes floatCard {
+    0%, 100% {
+        transform: translateY(0) rotateX(0deg);
+    }
+    50% {
+        transform: translateY(-10px) rotateX(2deg);
+    }
+}
+
 @keyframes photo-rotate {
     0% {
         opacity: 0;
@@ -77,11 +102,13 @@
         transform: scale(1) rotateY(360deg);
     }
 }
+
 .photo-rotate {
     opacity: 0;
     animation: photo-rotate 4s ease-out 0.5s forwards;
     transform-style: preserve-3d;
 }
+
 @keyframes constellation-light-up {
     0%, 90% {
         opacity: 0.6;
@@ -100,21 +127,27 @@
         filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.3));
     }
 }
+
 .constellation-container {
     animation: constellation-light-up 20s ease-in-out infinite;
 }
+
 .constellation-star {
     transition: all 0.3s ease;
 }
+
 .constellation-star-glow {
     transition: all 0.3s ease;
 }
+
 .constellation-line {
     transition: all 0.3s ease;
 }
+
 .constellation-lines {
     opacity: 0.6;
 }
+
 @keyframes twinkle {
     0%, 100% {
         opacity: 0.6;
@@ -127,6 +160,7 @@
         filter: brightness(1.8) drop-shadow(0 0 3px rgba(255, 255, 255, 0.8));
     }
 }
+
 .star-twinkle {
     animation: twinkle ease-in-out infinite;
 }

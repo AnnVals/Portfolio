@@ -143,7 +143,7 @@ export default function Hero() {
   };
 
   return (
-    <div className="relative bg-linear-to-br from-slate-950 via-indigo-950 to-slate-900 min-h-screen overflow-hidden">
+    <div className="relative bg-linear-to-bl from-slate-900 via-indigo-950 to-slate-950 min-h-screen overflow-hidden">
       <div className="absolute inset-0">
         {Array.from({ length: 200 }, (_, i) => (
           <div
