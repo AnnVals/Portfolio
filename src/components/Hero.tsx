@@ -192,20 +192,22 @@ export default function Hero() {
             <div className="card-emerge-capaldi">
               <div className="bg-slate-900/85 backdrop-blur-md rounded-2xl shadow-2xl shadow-slate-900/40 p-8 max-w-4xl border border-slate-700/50">
                 <div className="flex flex-col md:flex-row gap-8 items-center">
-
                   <div className="shrink-0">
-                    <div className="relative photo-rotate">
-                      <div className="w-80 h-80 rounded-2xl bg-linear-to-br from-slate-600 to-blue-800 p-1.5">
+                    <div className="relative photo-rotate group">
+                      <div className="w-80 h-80 rounded-2xl bg-linear-to-br from-slate-700 via-blue-600 to-indigo-700 p-0.75 shadow-2xl shadow-blue-600/30 group-hover:shadow-blue-500/50 transition-all duration-300">
                         <div className="w-full h-full rounded-2xl bg-slate-900 flex items-center justify-center overflow-hidden">
                           <img
                             src="/Yo.jpg"
                             alt="Ángela P. Centelles Insa"
-                            className="w-full h-full object-cover rounded-xl"
+                            className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-300"
                           />
                         </div>
                       </div>
-                      <div className="absolute -top-3 -right-3 w-5 h-5 bg-blue-300 rounded-full opacity-80 shadow-lg shadow-blue-300/50" />
-                      <div className="absolute -bottom-3 -left-3 w-4 h-4 bg-slate-400 rounded-full opacity-70 shadow-lg shadow-slate-400/50" />
+
+                      <div className="absolute -top-2 -left-2 w-6 h-6 border-t-2 border-l-2 border-blue-400 rounded-tl-lg" />
+                      <div className="absolute -top-2 -right-2 w-6 h-6 border-t-2 border-r-2 border-blue-400 rounded-tr-lg" />
+                      <div className="absolute -bottom-2 -left-2 w-6 h-6 border-b-2 border-l-2 border-blue-400 rounded-bl-lg" />
+                      <div className="absolute -bottom-2 -right-2 w-6 h-6 border-b-2 border-r-2 border-blue-400 rounded-br-lg" />
                     </div>
                   </div>
 
@@ -218,9 +220,10 @@ export default function Hero() {
                     </p>
 
                     <p className="text-slate-300 mb-8 leading-relaxed">
-                      Passionate full-stack developer with artistic vision. My focus
-                      is on combining frontend, backend, databases, frameworks and AI to deliver
-                      robust and creative solutions.
+                      Passionate full-stack developer with artistic vision. My
+                      focus is on combining frontend, backend, databases,
+                      frameworks and AI to deliver robust and creative
+                      solutions.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
@@ -245,7 +248,7 @@ export default function Hero() {
                         Download my CV
                       </a>
                       <a
-                        href="#about"
+                        href="mailto:anceninpil@gmail.com"
                         className="bg-slate-800 border border-slate-600 text-slate-300 px-6 py-3 rounded-md hover:bg-slate-700 transform hover:scale-105 transition duration-300 font-medium text-center"
                       >
                         Contact me

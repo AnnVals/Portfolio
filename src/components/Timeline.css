@@ -1,0 +1,385 @@
+/* Timeline Section */
+.timeline-section {
+    position: relative;
+    background: linear-gradient(to bottom right, #020617, #1e1b4b, #0f172a);
+    min-height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* Background Stars Animation */
+  @keyframes timeline-star-twinkle {
+    0%, 100% {
+      opacity: 0.3;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.8;
+      transform: scale(1.3);
+    }
+  }
+  
+  .timeline-star-twinkle {
+    animation: timeline-star-twinkle ease-in-out infinite;
+  }
+  
+  /* Title Glow Effect */
+  .title-glow {
+    text-shadow: 0 0 20px rgba(148, 163, 184, 0.5);
+  }
+  
+  /* Central Timeline Line */
+  .timeline-line {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(
+      to bottom,
+      transparent,
+      rgba(96, 165, 250, 0.5) 10%,
+      rgba(96, 165, 250, 0.8) 50%,
+      rgba(96, 165, 250, 0.5) 90%,
+      transparent
+    );
+    transform: translateX(-50%);
+  }
+  
+  .timeline-line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: radial-gradient(circle, rgba(96, 165, 250, 0.8), transparent);
+    border-radius: 50%;
+    transform: translateX(-50%);
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+  
+  @keyframes pulse-glow {
+    0%, 100% {
+      box-shadow: 0 0 10px rgba(96, 165, 250, 0.5);
+      transform: translateX(-50%) scale(1);
+    }
+    50% {
+      box-shadow: 0 0 30px rgba(96, 165, 250, 0.8);
+      transform: translateX(-50%) scale(1.2);
+    }
+  }
+  
+  /* Timeline Item Container */
+  .timeline-item {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 2rem;
+    align-items: center;
+  }
+  
+  .timeline-item-left .timeline-card {
+    grid-column: 1;
+    text-align: right;
+  }
+  
+  .timeline-item-right .timeline-card {
+    grid-column: 3;
+    text-align: left;
+  }
+  
+  /* Time Portal (Center Dot) */
+  .timeline-portal {
+    grid-column: 2;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
+  
+  .portal-outer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgba(96, 165, 250, 0.3);
+    border-radius: 50%;
+    animation: portal-rotate 8s linear infinite;
+  }
+  
+  .portal-middle {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    border: 2px solid rgba(147, 197, 253, 0.5);
+    border-radius: 50%;
+    animation: portal-rotate 6s linear infinite reverse;
+  }
+  
+  .portal-inner {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 
+      0 0 20px rgba(59, 130, 246, 0.6),
+      inset 0 0 10px rgba(147, 197, 253, 0.4);
+    animation: portal-pulse 3s ease-in-out infinite;
+    z-index: 1;
+  }
+  
+  .portal-glow {
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: radial-gradient(circle, rgba(96, 165, 250, 0.3), transparent 70%);
+    border-radius: 50%;
+    animation: glow-pulse 3s ease-in-out infinite;
+  }
+  
+  @keyframes portal-rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes portal-pulse {
+    0%, 100% {
+      transform: scale(1);
+      box-shadow: 
+        0 0 20px rgba(59, 130, 246, 0.6),
+        inset 0 0 10px rgba(147, 197, 253, 0.4);
+    }
+    50% {
+      transform: scale(1.1);
+      box-shadow: 
+        0 0 30px rgba(59, 130, 246, 0.9),
+        inset 0 0 15px rgba(147, 197, 253, 0.6);
+    }
+  }
+  
+  @keyframes glow-pulse {
+    0%, 100% {
+      opacity: 0.6;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+  }
+  
+  /* Timeline Card */
+  .timeline-card {
+    opacity: 0;
+    animation: card-slide-in 0.8s ease-out forwards;
+    animation-delay: calc(var(--index, 0) * 0.2s);
+  }
+  
+  .timeline-item:nth-child(1) .timeline-card { animation-delay: 0.2s; }
+  .timeline-item:nth-child(2) .timeline-card { animation-delay: 0.4s; }
+  .timeline-item:nth-child(3) .timeline-card { animation-delay: 0.6s; }
+  .timeline-item:nth-child(4) .timeline-card { animation-delay: 0.8s; }
+  
+  @keyframes card-slide-in {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .timeline-card-inner {
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(71, 85, 105, 0.4);
+    border-radius: 1rem;
+    padding: 2rem;
+    box-shadow: 
+      0 10px 40px rgba(0, 0, 0, 0.3),
+      0 0 20px rgba(59, 130, 246, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .timeline-card-inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(96, 165, 250, 0.5),
+      transparent
+    );
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .timeline-card-inner:hover {
+    border-color: rgba(96, 165, 250, 0.6);
+    box-shadow: 
+      0 15px 50px rgba(0, 0, 0, 0.4),
+      0 0 30px rgba(59, 130, 246, 0.3);
+    transform: translateY(-5px);
+  }
+  
+  .timeline-card-inner:hover::before {
+    opacity: 1;
+  }
+  
+  /* Year Badge */
+  .year-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(59, 130, 246, 0.2);
+    border: 1px solid rgba(96, 165, 250, 0.4);
+    color: #93c5fd;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.2);
+  }
+  
+  /* Tech Badges */
+  .tech-badge {
+    display: inline-block;
+    background: rgba(51, 65, 85, 0.6);
+    border: 1px solid rgba(71, 85, 105, 0.6);
+    color: #cbd5e1;
+    padding: 0.375rem 0.875rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .tech-badge:hover {
+    background: rgba(59, 130, 246, 0.3);
+    border-color: rgba(96, 165, 250, 0.6);
+    color: #e0f2fe;
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.3);
+    transform: translateY(-2px);
+  }
+  
+  /* End Portal */
+  .end-portal {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .end-portal-ring {
+    position: absolute;
+    border: 2px solid rgba(96, 165, 250, 0.4);
+    border-radius: 50%;
+    animation: end-ring-pulse 3s ease-in-out infinite;
+  }
+  
+  .end-portal-ring.ring-1 {
+    width: 100%;
+    height: 100%;
+    animation-delay: 0s;
+  }
+  
+  .end-portal-ring.ring-2 {
+    width: 75%;
+    height: 75%;
+    animation-delay: 0.3s;
+  }
+  
+  .end-portal-ring.ring-3 {
+    width: 50%;
+    height: 50%;
+    animation-delay: 0.6s;
+  }
+  
+  @keyframes end-ring-pulse {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 0.4;
+    }
+    50% {
+      transform: scale(1.15);
+      opacity: 0.8;
+    }
+  }
+  
+  .end-portal-center {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 
+      0 0 30px rgba(59, 130, 246, 0.6),
+      inset 0 0 20px rgba(139, 92, 246, 0.4);
+    animation: end-center-rotate 4s linear infinite;
+    z-index: 1;
+  }
+  
+  @keyframes end-center-rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .timeline-line {
+      left: 2rem;
+    }
+  
+    .timeline-item {
+      grid-template-columns: auto 1fr;
+      gap: 1rem;
+    }
+  
+    .timeline-item-left .timeline-card,
+    .timeline-item-right .timeline-card {
+      grid-column: 2;
+      text-align: left;
+    }
+  
+    .timeline-portal {
+      grid-column: 1;
+      width: 60px;
+      height: 60px;
+    }
+  
+    .timeline-card-inner {
+      padding: 1.5rem;
+    }
+  
+    .portal-inner {
+      font-size: 1.25rem;
+    }
+  }
