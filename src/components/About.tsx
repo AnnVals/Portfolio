@@ -104,7 +104,7 @@ export default function About() {
   ];
 
   return (
-    <section className="about-section relative bg-linear-to-bl from-slate-900 via-indigo-950 to-slate-950 py-20 overflow-hidden">
+    <section className="about-section relative bg-linear-to-tl from-slate-900 via-indigo-950 to-slate-950 py-20 overflow-hidden">
 
       <div className="absolute inset-0">
         {Array.from({ length: 100 }, (_, i) => (

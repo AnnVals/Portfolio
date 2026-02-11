@@ -120,7 +120,7 @@ export default function TechnicalSkills() {
   ];
 
   return (
-    <section className="relative bg-linear-to-br from-slate-950 via-indigo-950 to-slate-900 py-20 overflow-hidden">
+    <section className="relative bg-linear-to-tr from-slate-950 via-indigo-950 to-slate-900 py-20 overflow-hidden">
 
       <div className="absolute inset-0">
         {Array.from({ length: 100 }, (_, i) => (
