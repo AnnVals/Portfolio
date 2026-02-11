@@ -65,6 +65,7 @@ export default function Timeline() {
         "Java",
         "HTML",
         "CSS",
+        "Bootstrap",
         "JavaScript",
         "PHP",
         "MySQL",
