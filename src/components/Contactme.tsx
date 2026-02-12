@@ -150,8 +150,6 @@ export default function ContactMe() {
             <span className="text-slate-400 text-sm">Portfolio created with</span>
             <span className="text-cyan-400 font-semibold text-sm">React</span>
             <span className="text-slate-600">•</span>
-            <span className="text-cyan-300 font-semibold text-sm">React Native</span>
-            <span className="text-slate-600">•</span>
             <span className="text-blue-400 font-semibold text-sm">TypeScript</span>
             <span className="text-slate-600">•</span>
             <span className="text-purple-400 font-semibold text-sm">Vite</span>
