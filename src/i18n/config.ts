@@ -40,13 +40,23 @@ i18next
   .init({
     resources,
     fallbackLng: 'en',
-    lng: localStorage.getItem('language') || 'es',
+    supportedLngs: ['es', 'en', 'ca', 'gl', 'eu', 'fr', 'de'],
     interpolation: {
       escapeValue: false
     },
     detection: {
       order: ['localStorage', 'navigator'],
-      caches: ['localStorage']
+      caches: ['localStorage'],
+      lookupLocalStorage: 'language',
+      convertDetectedLanguage: (lng: string) => {
+        const MAIN_LANGUAGE = lng.split('-')[0].toLowerCase();
+        const SUPPORTED_LANGUAGES = ['es', 'en', 'ca', 'gl', 'eu', 'fr', 'de'];
+        if (SUPPORTED_LANGUAGES.includes(MAIN_LANGUAGE)) {
+          return MAIN_LANGUAGE;
+        }
+        
+        return 'en';
+      }
     }
   });
 
