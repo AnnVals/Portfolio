@@ -214,14 +214,24 @@ export default function TechnicalSkills() {
           color: "text-red-500",
         },
         {
+          icon: <DiMongodb className="text-5xl" />,
+          name: "MongoDB",
+          color: "text-green-400",
+        },
+        {
           icon: <FaDatabase className="text-5xl" />,
           name: "SQL",
           color: "text-gray-500",
         },
         {
           icon: <FaDatabase className="text-5xl" />,
-          name: "PL/SQL",
+          name: "NO SQL",
           color: "text-gray-400",
+        },
+        {
+          icon: <FaDatabase className="text-5xl" />,
+          name: "PL/SQL",
+          color: "text-gray-300",
         },
         {
           icon: <FaDatabase className="text-5xl" />,
@@ -232,11 +242,6 @@ export default function TechnicalSkills() {
           icon: <BiCloudDownload className="text-5xl" />,
           name: "Rest API",
           color: "text-blue-300",
-        },
-        {
-          icon: <DiMongodb className="text-5xl" />,
-          name: "MongoDB",
-          color: "text-green-400",
         },
       ],
     },
