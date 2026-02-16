@@ -1,189 +1,189 @@
 {
-    "hero": {
-      "name": "Ángela P. Centelles Insa",
-      "title": "Full Stack Web Developer & Designer | Illustrator",
-      "description": "Passionate full-stack developer with artistic vision. My focus is on combining frontend, backend, databases, frameworks and AI to deliver robust and creative solutions.",
-      "downloadCV": "Download my CV",
-      "contact": "Contact me"
-    },
-    "skills": {
-      "title": "Technical Skills",
-      "subtitle": "Technologies I work with to bring ideas to life",
-      "categories": {
-        "frontend": "Frontend",
-        "backend": "Backend",
-        "devops": "DevOps & Infrastructure",
-        "database": "Database",
-        "tools": "Development Tools & Methodologies",
-        "design": "Design & Creative"
+  "hero": {
+    "name": "Ángela P. Centelles Insa",
+    "title": "Full Stack Web Developer & Designer | Illustrator",
+    "description": "Passionate full-stack developer with artistic vision. My focus is on combining frontend, backend, databases, frameworks and AI to deliver robust and creative solutions.",
+    "downloadCV": "Download my CV",
+    "contact": "Contact me"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "subtitle": "Technologies I work with to bring ideas to life",
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "devops": "DevOps & Infrastructure",
+      "database": "Database",
+      "tools": "Development Tools & Methodologies",
+      "design": "Design & Creative"
+    }
+  },
+  "timeline": {
+    "title": "My Journey Through Time",
+    "subtitle": "A timeline of my professional experience and growth as a developer",
+    "experiences": {
+      "current": {
+        "year": "2025-Present",
+        "title": "Full Stack Developer",
+        "company": "Seeking New Opportunities",
+        "description": "Actively seeking a position where I can apply my full-stack development skills. While searching, I continue learning and expanding my expertise in modern technologies and development best practices."
+      },
+      "intern": {
+        "year": "2025",
+        "title": "Software Development Intern",
+        "company": "F10 Informática",
+        "description": "Completed internship where I gained hands-on experience with enterprise software development, transforming design mockups into functional applications and learning industry-standard tools."
+      },
+      "graduate": {
+        "year": "2025",
+        "title": "Full Stack Developer",
+        "company": "CPIFP Bajo Aragón",
+        "description": "Applied and expanded my technical expertise to develop a comprehensive end-of-degree project, named Gallifrex, combining everything I learnt throughout my studies with new technologies to deliver a complete full-stack solution."
+      },
+      "junior": {
+        "year": "2023-2025",
+        "title": "Junior Web Developer",
+        "company": "CPIFP Bajo Aragón",
+        "description": "Started my programming journey building responsive websites and learning full-stack development."
       }
     },
-    "timeline": {
-      "title": "My Journey Through Time",
-      "subtitle": "A timeline of my professional experience and growth as a developer",
-      "experiences": {
-        "current": {
-          "year": "2025-Present",
-          "title": "Full Stack Developer",
-          "company": "Seeking New Opportunities",
-          "description": "Actively seeking a position where I can apply my full-stack development skills. While searching, I continue learning and expanding my expertise in modern technologies and development best practices."
-        },
-        "intern": {
-          "year": "2025",
-          "title": "Software Development Intern",
-          "company": "F10 Informática",
-          "description": "Completed internship where I gained hands-on experience with enterprise software development, transforming design mockups into functional applications and learning industry-standard tools."
-        },
-        "graduate": {
-          "year": "2025",
-          "title": "Full Stack Developer",
-          "company": "CPIFP Bajo Aragón",
-          "description": "Applied and expanded my technical expertise to develop a comprehensive end-of-degree project, named Gallifrex, combining everything I learnt throughout my studies with new technologies to deliver a complete full-stack solution."
-        },
-        "junior": {
-          "year": "2023-2025",
-          "title": "Junior Web Developer",
-          "company": "CPIFP Bajo Aragón",
-          "description": "Started my programming journey building responsive websites and learning full-stack development."
-        }
-      },
-      "technologies": "Technologies"
+    "technologies": "Technologies"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "A blend of technology and creativity",
+    "journey": {
+      "title": "My Journey",
+      "text1": "I'm a <span class='text-blue-400 font-semibold'>full-stack developer</span> and <span class='text-purple-400 font-semibold'>digital illustrator</span> based in Spain. My journey into tech began with a fascination for how things work, and evolved into a passion for building them.",
+      "text2": "What sets me apart is my unique combination of technical skills and artistic vision. As an illustrator, I've developed a deep understanding of <span class='text-pink-400 font-semibold'>visual design, user experience, and creative storytelling</span>; skills that directly translate into creating beautiful, intuitive web applications.",
+      "text3": "When I'm not coding or drawing, you'll find me exploring new design trends, playing video games, capturing moments through photography, or singing along to my favorite songs. I'm a huge fan of animated series and films, and I believe music is the soundtrack to creativity. I believe the future of web development lies in the intersection of <span class='text-cyan-400 font-semibold'>functionality and aesthetics</span>, and I strive to embody that balance in everything I create."
     },
-    "about": {
-      "title": "About Me",
-      "subtitle": "A blend of technology and creativity",
-      "journey": {
-        "title": "My Journey",
-        "text1": "I'm a full-stack developer and digital illustrator based in Spain. My journey into tech began with a fascination for how things work, and evolved into a passion for building them.",
-        "text2": "What sets me apart is my unique combination of technical skills and artistic vision. As an illustrator, I've developed a deep understanding of visual design, user experience, and creative storytelling; skills that directly translate into creating beautiful, intuitive web applications.",
-        "text3": "When I'm not coding or drawing, you'll find me exploring new design trends, playing video games, capturing moments through photography, or singing along to my favorite songs. I'm a huge fan of animated series and films, and I believe music is the soundtrack to creativity. I believe the future of web development lies in the intersection of functionality and aesthetics, and I strive to embody that balance in everything I create."
+    "softSkills": {
+      "title": "Soft Skills",
+      "creative": {
+        "title": "Creative Problem Solving",
+        "description": "I combine analytical thinking with creative approaches to find innovative solutions to complex challenges."
       },
-      "softSkills": {
-        "title": "Soft Skills",
-        "creative": {
-          "title": "Creative Problem Solving",
-          "description": "I combine analytical thinking with creative approaches to find innovative solutions to complex challenges."
-        },
-        "team": {
-          "title": "Team Collaboration",
-          "description": "I thrive in collaborative environments, valuing diverse perspectives and fostering positive team dynamics."
-        },
-        "learning": {
-          "title": "Continuous Learning",
-          "description": "Passionate about staying current with new technologies and constantly expanding my skill set."
-        },
-        "attention": {
-          "title": "Attention to Detail",
-          "description": "My artistic background gives me a keen eye for design details and user experience refinement."
-        },
-        "empathy": {
-          "title": "Empathy",
-          "description": "I connect deeply with my team and environment, understanding different perspectives to build stronger relationships and collaborative solutions."
-        },
-        "perseverance": {
-          "title": "Perseverance",
-          "description": "I face challenges with determination, seeing obstacles as opportunities to grow and improve my skills."
-        },
-        "adaptability": {
-          "title": "Adaptability",
-          "description": "I embrace change and quickly adjust to new environments, technologies, and team dynamics with flexibility."
-        },
-        "critical": {
-          "title": "Critical Thinking",
-          "description": "I analyze situations from multiple angles to make well-informed decisions and solve problems effectively."
-        }
+      "team": {
+        "title": "Team Collaboration",
+        "description": "I thrive in collaborative environments, valuing diverse perspectives and fostering positive team dynamics."
       },
-      "illustration": {
-        "title": "Digital Illustrator",
-        "subtitle": "My Creative Side",
-        "text1": "Beyond coding, I am a freelance digital illustrator. I create custom artwork for clients ranging from keychain designs to character designs and brand or personal illustrations.",
-        "text2": "This dual career path enriches both my technical and creative work. My illustration experience helps me:",
-        "benefits": {
-          "design": "Design more visually appealing and user-friendly interfaces",
-          "color": "Understand color theory, composition, and visual hierarchy",
-          "communicate": "Communicate complex ideas through visual storytelling",
-          "perspective": "Bring a unique artistic perspective to web development projects"
-        }
+      "learning": {
+        "title": "Continuous Learning",
+        "description": "Passionate about staying current with new technologies and constantly expanding my skill set."
       },
-      "hobbies": {
-        "title": "Hobbies & Interests",
-        "digitalArt": {
-          "title": "Digital Illustration",
-          "description": "I work as a freelance illustrator, creating artwork for clients and personal projects."
-        },
-        "gaming": {
-          "title": "Gaming",
-          "description": "Passionate gamer who loves exploring immersive worlds and experiencing interactive storytelling."
-        },
-        "music": {
-          "title": "Music Lover",
-          "description": "Music is my constant companion - I love discovering new artists and getting lost in different genres."
-        },
-        "singing": {
-          "title": "Singing",
-          "description": "I enjoy singing as a way to express myself and unwind after a long day of coding."
-        },
-        "photography": {
-          "title": "Photography",
-          "description": "Capturing moments and playing with light, composition, and perspective through my lens."
-        },
-        "animation": {
-          "title": "Animation & Films",
-          "description": "Big fan of animated series and movies - they inspire my creativity and artistic work."
-        },
-        "traditional": {
-          "title": "Traditional Art",
-          "description": "I enjoy sketching, painting, and experimenting with different artistic mediums."
-        },
-        "reading": {
-          "title": "Reading & Learning",
-          "description": "Avid reader of tech blogs, design and concept books, and sci-fi/historical/drama novels that fuel my imagination."
-        }
+      "attention": {
+        "title": "Attention to Detail",
+        "description": "My artistic background gives me a keen eye for design details and user experience refinement."
+      },
+      "empathy": {
+        "title": "Empathy",
+        "description": "I connect deeply with my team and environment, understanding different perspectives to build stronger relationships and collaborative solutions."
+      },
+      "perseverance": {
+        "title": "Perseverance",
+        "description": "I face challenges with determination, seeing obstacles as opportunities to grow and improve my skills."
+      },
+      "adaptability": {
+        "title": "Adaptability",
+        "description": "I embrace change and quickly adjust to new environments, technologies, and team dynamics with flexibility."
+      },
+      "critical": {
+        "title": "Critical Thinking",
+        "description": "I analyze situations from multiple angles to make well-informed decisions and solve problems effectively."
       }
     },
-    "contact": {
-      "title": "Let's Connect",
-      "subtitle": "Find me on these platforms or reach out directly",
-      "platforms": {
-        "github": {
-          "name": "GitHub",
-          "username": "@annvals",
-          "description": "Check out my code and projects"
-        },
-        "linkedin": {
-          "name": "LinkedIn",
-          "username": "Ángela P. Centelles Insa",
-          "description": "Let's connect professionally"
-        },
-        "instagram": {
-          "name": "Instagram",
-          "username": "@valsart.jpg",
-          "description": "Follow my creative journey"
-        },
-        "gallifrex": {
-          "name": "Gallifrex",
-          "username": "My Project",
-          "description": "Explore my project"
-        },
-        "infojobs": {
-          "name": "InfoJobs",
-          "username": "Professional Profile",
-          "description": "View my professional experience"
-        },
-        "email": {
-          "name": "Email",
-          "username": "anceninpil@gmail.com",
-          "description": "Send me a message"
-        }
+    "illustration": {
+      "title": "Digital Illustrator",
+      "subtitle": "My Creative Side",
+      "text1": "Beyond coding, I am a <span class='text-purple-400 font-semibold'>freelance digital illustrator</span>. I create custom artwork for clients ranging from keychain designs to character designs and brand or personal illustrations.",
+      "text2": "This dual career path enriches both my technical and creative work. My illustration experience helps me:",
+      "benefits": {
+        "design": "Design more visually appealing and user-friendly interfaces",
+        "color": "Understand color theory, composition, and visual hierarchy",
+        "communicate": "Communicate complex ideas through visual storytelling",
+        "perspective": "Bring a unique artistic perspective to web development projects"
+      }
+    },
+    "hobbies": {
+      "title": "Hobbies & Interests",
+      "digitalArt": {
+        "title": "Digital Illustration",
+        "description": "I work as a freelance illustrator, creating artwork for clients and personal projects."
       },
-      "ready": {
-        "title": "Ready to contact me?",
-        "message": "Whether you have a project in mind, want to discuss opportunities, or just want to say hi, I'd love to hear from you! Feel free to reach out through any of the platforms above. Hope to get to know you soon! :)"
+      "gaming": {
+        "title": "Gaming",
+        "description": "Passionate gamer who loves exploring immersive worlds and experiencing interactive storytelling."
       },
-      "footer": {
-        "createdWith": "Portfolio created with",
-        "developedBy": "Developed by",
-        "rights": "All rights reserved"
+      "music": {
+        "title": "Music Lover",
+        "description": "Music is my constant companion - I love discovering new artists and getting lost in different genres."
+      },
+      "singing": {
+        "title": "Singing",
+        "description": "I enjoy singing as a way to express myself and unwind after a long day of coding."
+      },
+      "photography": {
+        "title": "Photography",
+        "description": "Capturing moments and playing with light, composition, and perspective through my lens."
+      },
+      "animation": {
+        "title": "Animation & Films",
+        "description": "Big fan of animated series and movies - they inspire my creativity and artistic work."
+      },
+      "traditional": {
+        "title": "Traditional Art",
+        "description": "I enjoy sketching, painting, and experimenting with different artistic mediums."
+      },
+      "reading": {
+        "title": "Reading & Learning",
+        "description": "Avid reader of tech blogs, design and concept books, and sci-fi/historical/drama novels that fuel my imagination."
       }
     }
+  },
+  "contact": {
+    "title": "Let's Connect",
+    "subtitle": "Find me on these platforms or reach out directly",
+    "platforms": {
+      "github": {
+        "name": "GitHub",
+        "username": "@annvals",
+        "description": "Check out my code and projects"
+      },
+      "linkedin": {
+        "name": "LinkedIn",
+        "username": "Ángela P. Centelles Insa",
+        "description": "Let's connect professionally"
+      },
+      "instagram": {
+        "name": "Instagram",
+        "username": "@valsart.jpg",
+        "description": "Follow my creative journey"
+      },
+      "gallifrex": {
+        "name": "Gallifrex",
+        "username": "My Project",
+        "description": "Explore my project"
+      },
+      "infojobs": {
+        "name": "InfoJobs",
+        "username": "Professional Profile",
+        "description": "View my professional experience"
+      },
+      "email": {
+        "name": "Email",
+        "username": "anceninpil@gmail.com",
+        "description": "Send me a message"
+      }
+    },
+    "ready": {
+      "title": "Ready to contact me?",
+      "message": "Whether you have a project in mind, want to discuss opportunities, or just want to say hi, I'd love to hear from you! Feel free to reach out through any of the platforms above. Hope to get to know you soon! :)"
+    },
+    "footer": {
+      "createdWith": "Portfolio created with",
+      "developedBy": "Developed by",
+      "rights": "All rights reserved"
+    }
   }
+}
