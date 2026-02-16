@@ -1,0 +1,189 @@
+{
+    "hero": {
+      "name": "Ángela P. Centelles Insa",
+      "title": "Full Stack Web Garatzailea & Diseinatzailea | Ilustratzailea",
+      "description": "Ikuspegi artistikoa duen full-stack garatzaile apasionatua. Nire helburua frontend, backend, datu-baseak, framework-ak eta IA konbinatzea da, soluzio sendoak eta sortzaileak eskaintzeko.",
+      "downloadCV": "Nire CV-a deskargatu",
+      "contact": "Jarri nirekin harremanetan"
+    },
+    "skills": {
+      "title": "Trebetasun Teknikoak",
+      "subtitle": "Ideiak bizirik jartzeko erabiltzen ditudan teknologiak",
+      "categories": {
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "devops": "DevOps & Azpiegitura",
+        "database": "Datu-basea",
+        "tools": "Garapen Tresnak & Metodologiak",
+        "design": "Diseinua & Sormena"
+      }
+    },
+    "timeline": {
+      "title": "Nire Bidaia Denboraren Zehar",
+      "subtitle": "Nire esperientzia profesionalaren eta garatzaile gisa nire hazkundearen denbora-lerroa",
+      "experiences": {
+        "current": {
+          "year": "2025-Gaur egun",
+          "title": "Full Stack Garatzailea",
+          "company": "Aukera Berriak Bilatzen",
+          "description": "Aktiboki bilatzen dut nire full-stack garapen gaitasunak aplikatu ahal izango ditudan posizio bat. Bilatzen dudan bitartean, teknologia modernoetan eta garapen-praktika onenen ikasketan jarraitzen dut."
+        },
+        "intern": {
+          "year": "2025",
+          "title": "Software Garapeneko Bekaduna",
+          "company": "F10 Informática",
+          "description": "Praktikak osatu nituen, non enpresa-mailako software garapenarekin esperientzia praktikoa lortu nuen, diseinuak aplikazio funtzionaletan transformatuz eta industriako tresna estandarrak ikasten."
+        },
+        "graduate": {
+          "year": "2025",
+          "title": "Full Stack Garatzailea",
+          "company": "CPIFP Bajo Aragón",
+          "description": "Nire esperientzia teknikoa aplikatu eta hedatu nuen gradu-amaierako proiektu integral bat garatzeko, Gallifrex izenekoa, nire ikasketen zehar ikasitako guztia teknologia berriekin konbinatuz full-stack soluzio osoa emateko."
+        },
+        "junior": {
+          "year": "2023-2025",
+          "title": "Web Garatzaile Juniorra",
+          "company": "CPIFP Bajo Aragón",
+          "description": "Nire programazio bidaia hasi nuen webgune erreaktiboak eraikiz eta full-stack garapena ikasten."
+        }
+      },
+      "technologies": "Teknologiak"
+    },
+    "about": {
+      "title": "Niri buruz",
+      "subtitle": "Teknologia eta sormenaren nahasketa",
+      "journey": {
+        "title": "Nire Bidaia",
+        "text1": "<span class='text-blue-400 font-semibold'>Full-stack garatzailea</span> eta <span class='text-purple-400 font-semibold'>ilustratzaile digitala</span> naiz, Espainian kokatua. Teknologiaren munduko nire bidaia gauzak nola funtzionatzen duten faszinazioarekin hasi zen, eta haiek eraikitzeko pasioa bihurtu zen.",
+        "text2": "Nabarmentzen nauena nire trebetasun teknikoen eta ikuspegi artistikoaren nahasketa paregabea da. Ilustratzaile gisa, <span class='text-pink-400 font-semibold'>diseinu bisualaren, erabiltzaile-esperientziaren eta kontakizun sortzailearen</span> ulermen sakona garatu dut; trebetasunak zuzenean itzultzen dira web aplikazio eder eta intuitiboak sortzerakoan.",
+        "text3": "Programatzen edo marrazten ez nagonean, diseinu-joera berriak aztertzen, bideojokoak jolasten, argazkigintza bidez uneak atzematen, edo nire abesti gogokoenen kantatzen aurkituko nauzu. Animazio-serie eta filmen zale handia naiz, eta uste dut musika sormenaren soinu-banda dela. Sinesten dut web garapenaren etorkizuna <span class='text-cyan-400 font-semibold'>funtzionaltasunaren eta estetikaren</span> gurutzean dagoela, eta sortzen dudan guztietan oreka hori gorpuzten saiatzen naiz."
+      },
+      "softSkills": {
+        "title": "Gaitasun Pertsonalak",
+        "creative": {
+          "title": "Arazo-konponketa Sortzailea",
+          "description": "Pentsamendu analitikoa ikuspegi sortzaileekin konbinatzen dut erronka konplexuetarako soluzio berritzaileak aurkitzeko."
+        },
+        "team": {
+          "title": "Taldeko Lankidetza",
+          "description": "Lankidetza-inguruneetan garatzen naiz, ikuspegi anitzak baloratuz eta talde-dinamika positiboak sustatuz."
+        },
+        "learning": {
+          "title": "Ikasketa Etengabea",
+          "description": "Teknologia berriekin eguneratuta egoteaz eta nire gaitasun-multzoa etengabe zabaltzeaz apasionatua."
+        },
+        "attention": {
+          "title": "Xehetasunerako Arreta",
+          "description": "Nire arte-arloko ibilbideak diseinu-xehetasunetarako eta erabiltzaile-esperientziaren hobekuntzetarako begi zorrotza ematen dit."
+        },
+        "empathy": {
+          "title": "Enpatia",
+          "description": "Nire taldearekin eta ingurunearekin sakonki konektatzen dut, ikuspegi desberdinak ulertuz harreman sendoagoak eta soluzio lankidetzaileak eraikitzeko."
+        },
+        "perseverance": {
+          "title": "Irmotasuna",
+          "description": "Erronkei erabakitasunez aurre egiten diet, oztopoak nire gaitasunak hazteko eta hobetzeko aukerak direla ikusiz."
+        },
+        "adaptability": {
+          "title": "Egokitzeko Gaitasuna",
+          "description": "Aldaketa onartu eta azkar egokitzen naiz ingurune, teknologia eta talde-dinamika berrietara malgutasunez."
+        },
+        "critical": {
+          "title": "Pentsamendu Kritikoa",
+          "description": "Egoera ikuspegi anitztatik aztertzen dut erabaki informatuak hartzeko eta arazoak eraginkortasunez konpontzeko."
+        }
+      },
+      "illustration": {
+        "title": "Ilustratzaile Digitala",
+        "subtitle": "Nire Alderdi Sortzailea",
+        "text1": "Programazioaz haratago, <span class='text-purple-400 font-semibold'>ilustratzaile digital freelance</span> bat naiz. Arte pertsonalizatua sortzen dut bezeroendako, giltzatxo-diseinuetatik hasi eta pertsonaia-diseinuetara eta marka edo arte pertsonaleko ilustrazioetara.",
+        "text2": "Ibilbide profesional bikoitz honek nire lan teknikoa eta sortzailea aberasten du. Nire ilustrazio-esperientziak honela laguntzen dit:",
+        "benefits": {
+          "design": "Bisualki erakargarriagoak eta erabiltzaileentzat atseginagoak diren interfazeak diseinatzea",
+          "color": "Kolore-teoria, konposizioa eta hierarkia bisuala ulertzea",
+          "communicate": "Ideia konplexuak kontakizun bisualaren bidez komunikatzea",
+          "perspective": "Ikuspegi artistiko paregabea web garapen proiektuetara ekartzea"
+        }
+      },
+      "hobbies": {
+        "title": "Zaletasunak eta Interesak",
+        "digitalArt": {
+          "title": "Ilustrazio Digitala",
+          "description": "Ilustratzaile freelance gisa lan egiten dut, bezeroendako eta proiektu pertsonaletarako artea sortuz."
+        },
+        "gaming": {
+          "title": "Bideojokoak",
+          "description": "Jokalari apasionatua, mundu murgilgarriak esploratzea eta kontakizun interaktiboak esperimentatzea maite duena."
+        },
+        "music": {
+          "title": "Musikazalea",
+          "description": "Musika nire lagun etengabea da - artista berriak aurkitzea eta genero desberdinetan galtzen maite dut."
+        },
+        "singing": {
+          "title": "Kantatzea",
+          "description": "Neure burua adierazteko eta programazio-egun luzeen ondoren erlaxatzeko modu gisa kantatzen gozatzen dut."
+        },
+        "photography": {
+          "title": "Argazkigintza",
+          "description": "Uneak atzematen, eta argia, konposizioa eta perspektiba nire lentean zehar jolasten."
+        },
+        "animation": {
+          "title": "Animazioa & Filmak",
+          "description": "Animazio-serie eta filmen zale handia - nire sormena eta arte-lana inspiratzen dute."
+        },
+        "traditional": {
+          "title": "Arte Tradizionala",
+          "description": "Krokisak egitea, margotzea eta arte-bitarteko desberdinekin esperimentatzea gozatzen dut."
+        },
+        "reading": {
+          "title": "Irakurtzea & Ikastea",
+          "description": "Irakurle grina dut teknologia-blog, diseinu eta kontzeptu-liburu, eta zientzia-fikziozko/historikozko/dramako eleberrien nire irudimena elikatzen dutenak."
+        }
+      }
+    },
+    "contact": {
+      "title": "Jar gaitezen harremanetan",
+      "subtitle": "Aurkitu nazazu plataforma hauetan edo jarri nirekin zuzenean harremanetan",
+      "platforms": {
+        "github": {
+          "name": "GitHub",
+          "username": "@annvals",
+          "description": "Begiratu nire kodea eta proiektuak"
+        },
+        "linkedin": {
+          "name": "LinkedIn",
+          "username": "Ángela P. Centelles Insa",
+          "description": "Jar gaitezen harremanetan profesionalki"
+        },
+        "instagram": {
+          "name": "Instagram",
+          "username": "@valsart.jpg",
+          "description": "Jarraitu nire bidaia sortzailea"
+        },
+        "gallifrex": {
+          "name": "Gallifrex",
+          "username": "Nire Proiektua",
+          "description": "Esploratu nire proiektua"
+        },
+        "infojobs": {
+          "name": "InfoJobs",
+          "username": "Profil Profesionala",
+          "description": "Ikusi nire esperientzia profesionala"
+        },
+        "email": {
+          "name": "Posta elektronikoa",
+          "username": "anceninpil@gmail.com",
+          "description": "Bidali mezu bat"
+        }
+      },
+      "ready": {
+        "title": "Prest nirekin harremanetan jartzeko?",
+        "message": "Proiektu bat gogoan duzun, aukerak eztabaidatu nahi dituzun, edo kaixo esatea bakarrik nahi duzun, zure berri izatea gustatuko litzaidake! Ez izan zalantzarik goiko plataforma edozein bidez harremanetan jartzeko. Laster ezagutzeko esperoan nago! :)"
+      },
+      "footer": {
+        "createdWith": "Porfolioa honekin sortua:",
+        "developedBy": "Honek garatua:",
+        "rights": "Eskubide guztiak erreserbatuak"
+      }
+    }
+  }

@@ -11,8 +11,9 @@ export default function LanguageSelector() {
     { code: 'en', label: 'EN', name: 'English' },
     { code: 'ca', label: 'CA', name: 'Català' },
     { code: 'gl', label: 'GL', name: 'Galego' },
+    { code: 'eu', label: 'EU', name: 'Euskera' },
     { code: 'fr', label: 'FR', name: 'Français' },
-    { code: 'de', label: 'DE', name: 'Deutsch' }
+    { code: 'de', label: 'DE', name: 'Deutsch' }    
   ];
 
   const changeLanguage = (lng: string) => {

@@ -6,6 +6,7 @@ import translationEN from './locales/en.json';
 import translationES from './locales/es.json';
 import translationCA from './locales/ca.json';
 import translationGL from './locales/gl.json';
+import translationEU from './locales/eu.json';
 import translationFR from './locales/fr.json';
 import translationDE from './locales/de.json';
 
@@ -21,6 +22,9 @@ const resources = {
   },
   gl: {
     translation: translationGL
+  },
+  eu: {
+    translation: translationEU
   },
   fr: {
     translation: translationFR
