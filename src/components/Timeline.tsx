@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import "./Timeline.css";
 import { AiFillEye } from "react-icons/ai";
 import { FaGraduationCap, FaRocket, FaStar } from "react-icons/fa";
@@ -15,34 +16,33 @@ interface Experience {
 }
 
 export default function Timeline() {
+  const { t } = useTranslation();
+
   const experiences: Experience[] = [
     {
       id: 1,
-      year: "2025-Present",
-      title: "Full Stack Developer",
-      company: "Seeking New Opportunities",
-      description:
-        "Actively seeking a position where I can apply my full-stack development skills. While searching, I continue learning and expanding my expertise in modern technologies and development best practices.",
+      year: t('timeline.experiences.current.year'),
+      title: t('timeline.experiences.current.title'),
+      company: t('timeline.experiences.current.company'),
+      description: t('timeline.experiences.current.description'),
       technologies: ["React", "Node.js", "TypeScript", "Tailwind", "Python", "AI"],
       icon: <AiFillEye className="text-3xl text-white" />,
     },
     {
       id: 2,
-      year: "2025",
-      title: "Software Development Intern",
-      company: "F10 Informática",
-      description:
-        "Completed internship where I gained hands-on experience with enterprise software development, transforming design mockups into functional applications and learning industry-standard tools.",
+      year: t('timeline.experiences.intern.year'),
+      title: t('timeline.experiences.intern.title'),
+      company: t('timeline.experiences.intern.company'),
+      description: t('timeline.experiences.intern.description'),
       technologies: ["Oracle", "Genexus", "Microsoft Office", "Excel"],
       icon: <MdWork className="text-3xl text-white" />,
     },
     {
       id: 3,
-      year: "2025",
-      title: "Full Stack Developer",
-      company: "CPIFP Bajo Aragón",
-      description:
-        "Applied and expanded my technical expertise to develop a comprehensive end-of-degree project, named Gallifrex, combining everything I learnt throughout my studies with new technologies to deliver a complete full-stack solution.",
+      year: t('timeline.experiences.graduate.year'),
+      title: t('timeline.experiences.graduate.title'),
+      company: t('timeline.experiences.graduate.company'),
+      description: t('timeline.experiences.graduate.description'),
       technologies: [
         "Dockerfile",
         "Figma",
@@ -56,11 +56,10 @@ export default function Timeline() {
     },
     {
       id: 4,
-      year: "2023-2025",
-      title: "Junior Web Developer",
-      company: "CPIFP Bajo Aragón",
-      description:
-        "Started my programming journey building responsive websites and learning full-stack development.",
+      year: t('timeline.experiences.junior.year'),
+      title: t('timeline.experiences.junior.title'),
+      company: t('timeline.experiences.junior.company'),
+      description: t('timeline.experiences.junior.description'),
       technologies: [
         "Java",
         "HTML",
@@ -104,10 +103,10 @@ export default function Timeline() {
       <div className="relative z-10 container mx-auto px-4 py-20">
         <div className="text-center mb-20">
           <h2 className="text-5xl font-bold text-slate-100 mb-4 title-glow">
-            My Journey Through Time
+            {t('timeline.title')}
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-            A timeline of my professional experience and growth as a developer
+            {t('timeline.subtitle')}
           </p>
         </div>
 

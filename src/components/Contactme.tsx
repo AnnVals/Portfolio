@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import "./Skills.css";
 import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaBriefcase } from "react-icons/fa";
 import type { ReactNode } from "react";
@@ -13,33 +14,35 @@ interface SocialLink {
 }
 
 export default function ContactMe() {
+  const { t } = useTranslation();
+
   const socialLinks: SocialLink[] = [
     {
       icon: <FaGithub className="text-5xl" />,
-      name: "GitHub",
-      username: "@annvals",
+      name: t('contact.platforms.github.name'),
+      username: t('contact.platforms.github.username'),
       url: "https://github.com/annvals",
       color: "text-gray-400",
       hoverColor: "hover:text-white",
-      description: "Check out my code and projects"
+      description: t('contact.platforms.github.description')
     },
     {
       icon: <FaLinkedin className="text-5xl" />,
-      name: "LinkedIn",
-      username: "Ángela P. Centelles Insa",
+      name: t('contact.platforms.linkedin.name'),
+      username: t('contact.platforms.linkedin.username'),
       url: "https://www.linkedin.com/in/angelapci/",
       color: "text-blue-400",
       hoverColor: "hover:text-blue-300",
-      description: "Let's connect professionally"
+      description: t('contact.platforms.linkedin.description')
     },
     {
       icon: <FaInstagram className="text-5xl" />,
-      name: "Instagram",
-      username: "@valsart.jpg",
+      name: t('contact.platforms.instagram.name'),
+      username: t('contact.platforms.instagram.username'),
       url: "https://instagram.com/valsart.jpg",
       color: "text-pink-400",
       hoverColor: "hover:text-pink-300",
-      description: "Follow my creative journey"
+      description: t('contact.platforms.instagram.description')
     },
     {
       icon: (
@@ -47,30 +50,30 @@ export default function ContactMe() {
           <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
         </svg>
       ),
-      name: "Gallifrex",
-      username: "My Project",
+      name: t('contact.platforms.gallifrex.name'),
+      username: t('contact.platforms.gallifrex.username'),
       url: "https://gallifrex.com",
       color: "text-purple-400",
       hoverColor: "hover:text-purple-300",
-      description: "Explore my project"
+      description: t('contact.platforms.gallifrex.description')
     },
     {
       icon: <FaBriefcase className="text-5xl" />,
-      name: "InfoJobs",
-      username: "Professional Profile",
+      name: t('contact.platforms.infojobs.name'),
+      username: t('contact.platforms.infojobs.username'),
       url: "https://www.infojobs.net/candidate/cv/view/index.xhtml?dgv=1230826503936152525",
       color: "text-cyan-400",
       hoverColor: "hover:text-cyan-300",
-      description: "View my professional experience"
+      description: t('contact.platforms.infojobs.description')
     },
     {
       icon: <FaEnvelope className="text-5xl" />,
-      name: "Email",
-      username: "anceninpil@gmail.com",
+      name: t('contact.platforms.email.name'),
+      username: t('contact.platforms.email.username'),
       url: "mailto:anceninpil@gmail.com",
       color: "text-orange-400",
       hoverColor: "hover:text-orange-300",
-      description: "Send me a message"
+      description: t('contact.platforms.email.description')
     }
   ];
 
@@ -99,10 +102,10 @@ export default function ContactMe() {
 
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-slate-100 mb-4 title-glow">
-            Let's Connect
+            {t('contact.title')}
           </h2>
           <p className="text-slate-400 text-lg max-w-3xl mx-auto">
-            Find me on these platforms or reach out directly
+            {t('contact.subtitle')}
           </p>
         </div>
 
@@ -111,8 +114,8 @@ export default function ContactMe() {
             <a
               key={index}
               href={link.url}
-              target={link.name !== "Email" ? "_blank" : "_self"}
-              rel={link.name !== "Email" ? "noopener noreferrer" : undefined}
+              target={link.name !== t('contact.platforms.email.name') ? "_blank" : "_self"}
+              rel={link.name !== t('contact.platforms.email.name') ? "noopener noreferrer" : undefined}
               className="group bg-slate-900/60 backdrop-blur-sm rounded-xl p-6 border border-slate-700/50 hover:border-blue-500/50 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl hover:shadow-blue-500/20 cursor-pointer"
             >
               <div className="flex flex-col items-center text-center">
@@ -136,18 +139,17 @@ export default function ContactMe() {
         <div className="mt-16 text-center">
           <div className="bg-linear-to-r from-blue-900/30 to-purple-900/30 backdrop-blur-md rounded-2xl p-8 border border-blue-500/30 shadow-2xl max-w-3xl mx-auto">
             <h3 className="text-2xl font-bold text-slate-100 mb-4">
-              Ready to contact me?
+              {t('contact.ready.title')}
             </h3>
             <p className="text-slate-300 mb-6 leading-relaxed">
-              Whether you have a project in mind, want to discuss opportunities, or just want to say hi, 
-              I'd love to hear from you! Feel free to reach out through any of the platforms above. Hope to get to know you soon! :)
+              {t('contact.ready.message')}
             </p>
           </div>
         </div>
 
         <div className="mt-12 text-center space-y-4">
           <div className="inline-flex items-center gap-2 bg-slate-900/40 backdrop-blur-sm rounded-full px-6 py-3 border border-slate-700/30">
-            <span className="text-slate-400 text-sm">Portfolio created with</span>
+            <span className="text-slate-400 text-sm">{t('contact.footer.createdWith')}</span>
             <span className="text-cyan-400 font-semibold text-sm">React</span>
             <span className="text-slate-600">•</span>
             <span className="text-blue-400 font-semibold text-sm">TypeScript</span>
@@ -158,8 +160,8 @@ export default function ContactMe() {
           </div>
 
           <div className="text-slate-400 text-sm">
-            <p>Developed by <span className="text-slate-200 font-semibold">Ángela P. Centelles Insa</span></p>
-            <p className="mt-1">© {new Date().getFullYear()} All rights reserved</p>
+            <p>{t('contact.footer.developedBy')} <span className="text-slate-200 font-semibold">Ángela P. Centelles Insa</span></p>
+            <p className="mt-1">© {new Date().getFullYear()} {t('contact.footer.rights')}</p>
           </div>
         </div>
       </div>

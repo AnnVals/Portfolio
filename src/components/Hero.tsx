@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import "./Hero.css";
 
 interface Star {
@@ -20,6 +21,7 @@ interface Constellation {
 }
 
 export default function Hero() {
+  const { t } = useTranslation();
   const [constellations, setConstellations] = React.useState<Constellation[]>(
     []
   );
@@ -198,7 +200,7 @@ export default function Hero() {
                         <div className="w-full h-full rounded-2xl bg-slate-900 flex items-center justify-center overflow-hidden">
                           <img
                             src="/Yo.jpg"
-                            alt="Ángela P. Centelles Insa"
+                            alt={t('hero.name')}
                             className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-300"
                           />
                         </div>
@@ -213,17 +215,14 @@ export default function Hero() {
 
                   <div className="flex-1 text-center md:text-left">
                     <h1 className="text-4xl font-bold mb-3 text-slate-100">
-                      Ángela P. Centelles Insa
+                      {t('hero.name')}
                     </h1>
                     <p className="text-slate-400 font-medium mb-5 text-lg">
-                      Full Stack Web Developer & Designer | Illustrator
+                      {t('hero.title')}
                     </p>
 
                     <p className="text-slate-300 mb-8 leading-relaxed">
-                      Passionate full-stack developer with artistic vision. My
-                      focus is on combining frontend, backend, databases,
-                      frameworks and AI to deliver robust and creative
-                      solutions.
+                      {t('hero.description')}
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
@@ -245,13 +244,13 @@ export default function Hero() {
                             d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
                           />
                         </svg>
-                        Download my CV
+                        {t('hero.downloadCV')}
                       </a>
                       <a
                         href="mailto:anceninpil@gmail.com"
                         className="bg-slate-800 border border-slate-600 text-slate-300 px-6 py-3 rounded-md hover:bg-slate-700 transform hover:scale-105 transition duration-300 font-medium text-center"
                       >
-                        Contact me
+                        {t('hero.contact')}
                       </a>
                     </div>
                   </div>

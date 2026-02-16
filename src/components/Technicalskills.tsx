@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import "./Skills.css";
 import {
   FaReact,
@@ -61,9 +62,11 @@ interface TechCategory {
 }
 
 export default function TechnicalSkills() {
+  const { t } = useTranslation();
+
   const techCategories: TechCategory[] = [
     {
-      title: "Frontend",
+      title: t('skills.categories.frontend'),
       gradientFrom: "from-blue-900/30",
       gradientTo: "to-cyan-900/30",
       borderColor: "border-blue-500/30",
@@ -116,7 +119,7 @@ export default function TechnicalSkills() {
       ],
     },
     {
-      title: "Backend",
+      title: t('skills.categories.backend'),
       gradientFrom: "from-green-900/30",
       gradientTo: "to-emerald-900/30",
       borderColor: "border-green-500/30",
@@ -144,7 +147,7 @@ export default function TechnicalSkills() {
       ],
     },
     {
-      title: "DevOps & Infrastructure",
+      title: t('skills.categories.devops'),
       gradientFrom: "from-slate-900/30",
       gradientTo: "to-gray-900/30",
       borderColor: "border-slate-500/30",
@@ -193,7 +196,7 @@ export default function TechnicalSkills() {
       ],
     },
     {
-      title: "Database",
+      title: t('skills.categories.database'),
       gradientFrom: "from-purple-900/30",
       gradientTo: "to-pink-900/30",
       borderColor: "border-purple-500/30",
@@ -246,7 +249,7 @@ export default function TechnicalSkills() {
       ],
     },
     {
-      title: "Development Tools & Methodologies",
+      title: t('skills.categories.tools'),
       gradientFrom: "from-amber-900/30",
       gradientTo: "to-yellow-900/30",
       borderColor: "border-amber-500/30",
@@ -297,7 +300,7 @@ export default function TechnicalSkills() {
       ],
     },
     {
-      title: "Design & Creative",
+      title: t('skills.categories.design'),
       gradientFrom: "from-pink-900/30",
       gradientTo: "to-rose-900/30",
       borderColor: "border-pink-500/30",
@@ -364,10 +367,10 @@ export default function TechnicalSkills() {
       <div className="relative z-10 container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-slate-100 mb-4 title-glow">
-            Technical Skills
+            {t('skills.title')}
           </h2>
           <p className="text-slate-400 text-lg max-w-3xl mx-auto">
-            Technologies I work with to bring ideas to life
+            {t('skills.subtitle')}
           </p>
         </div>
 

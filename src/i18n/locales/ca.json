@@ -1,0 +1,189 @@
+{
+    "hero": {
+      "name": "Ángela P. Centelles Insa",
+      "title": "Desenvolupadora Web Full Stack & Dissenyadora | Il·lustradora",
+      "description": "Desenvolupadora full-stack apassionada amb visió artística. El meu enfocament és combinar frontend, backend, bases de dades, frameworks i IA per oferir solucions robustes i creatives.",
+      "downloadCV": "Descarregar el meu CV",
+      "contact": "Contacta'm"
+    },
+    "skills": {
+      "title": "Habilitats Tècniques",
+      "subtitle": "Tecnologies amb les quals treballo per donar vida a les idees",
+      "categories": {
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "devops": "DevOps & Infraestructura",
+        "database": "Base de Dades",
+        "tools": "Eines de Desenvolupament & Metodologies",
+        "design": "Disseny & Creativitat"
+      }
+    },
+    "timeline": {
+      "title": "El Meu Viatge a Través del Temps",
+      "subtitle": "Una línia de temps de la meva experiència professional i creixement com a desenvolupadora",
+      "experiences": {
+        "current": {
+          "year": "2025-Present",
+          "title": "Desenvolupadora Full Stack",
+          "company": "Buscant Noves Oportunitats",
+          "description": "Buscant activament una posició on pugui aplicar les meves habilitats de desenvolupament full-stack. Mentre busco, continuo aprenent i expandint la meva experiència en tecnologies modernes i millors pràctiques de desenvolupament."
+        },
+        "intern": {
+          "year": "2025",
+          "title": "Becària de Desenvolupament de Software",
+          "company": "F10 Informática",
+          "description": "Vaig completar pràctiques on vaig guanyar experiència pràctica amb desenvolupament de software empresarial, transformant dissenys en aplicacions funcionals i aprenent eines estàndard de la indústria."
+        },
+        "graduate": {
+          "year": "2025",
+          "title": "Desenvolupadora Full Stack",
+          "company": "CPIFP Bajo Aragón",
+          "description": "Vaig aplicar i expandir la meva experiència tècnica per desenvolupar un projecte integral de fi de grau, anomenat Gallifrex, combinant tot el que vaig aprendre durant els meus estudis amb noves tecnologies per entregar una solució full-stack completa."
+        },
+        "junior": {
+          "year": "2023-2025",
+          "title": "Desenvolupadora Web Junior",
+          "company": "CPIFP Bajo Aragón",
+          "description": "Vaig començar el meu viatge en programació construint llocs web responsius i aprenent desenvolupament full-stack."
+        }
+      },
+      "technologies": "Tecnologies"
+    },
+    "about": {
+      "title": "Sobre Mi",
+      "subtitle": "Una barreja de tecnologia i creativitat",
+      "journey": {
+        "title": "El Meu Viatge",
+        "text1": "Sóc una <span class='text-blue-400 font-semibold'>desenvolupadora full-stack</span> i <span class='text-purple-400 font-semibold'>il·lustradora digital</span> basada a Espanya. El meu viatge en la tecnologia va començar amb una fascinació per com funcionen les coses, i va evolucionar en una passió per construir-les.",
+        "text2": "El que em distingeix és la meva combinació única d'habilitats tècniques i visió artística. Com a il·lustradora, he desenvolupat un profund enteniment del <span class='text-pink-400 font-semibold'>disseny visual, experiència d'usuari i narrativa creativa</span>; habilitats que es tradueixen directament en crear aplicacions web belles i intuïtives.",
+        "text3": "Quan no estic programant o dibuixant, em trobaràs explorant noves tendències de disseny, jugant a videojocs, capturant moments a través de la fotografia, o cantant les meves cançons favorites. Sóc una gran fan de sèries animades i pel·lícules, i crec que la música és la banda sonora de la creativitat. Crec que el futur del desenvolupament web resideix en la intersecció de <span class='text-cyan-400 font-semibold'>funcionalitat i estètica</span>, i m'esforço per encarnar aquest equilibri en tot el que creo."
+      },
+      "softSkills": {
+        "title": "Habilitats Toves",
+        "creative": {
+          "title": "Resolució Creativa de Problemes",
+          "description": "Combino pensament analític amb enfocaments creatius per trobar solucions innovadores a reptes complexos."
+        },
+        "team": {
+          "title": "Col·laboració en Equip",
+          "description": "Em desenvolupo en ambients col·laboratius, valorant perspectives diverses i fomentant dinàmiques d'equip positives."
+        },
+        "learning": {
+          "title": "Aprenentatge Continu",
+          "description": "Apassionada per mantenir-me actualitzada amb noves tecnologies i expandir constantment el meu conjunt d'habilitats."
+        },
+        "attention": {
+          "title": "Atenció al Detall",
+          "description": "El meu trasfons artístic em dóna un ull agut per detalls de disseny i refinament d'experiència d'usuari."
+        },
+        "empathy": {
+          "title": "Empatia",
+          "description": "Connecto profundament amb el meu equip i entorn, entenent diferents perspectives per construir relacions més fortes i solucions col·laboratives."
+        },
+        "perseverance": {
+          "title": "Perseverança",
+          "description": "Enfronti reptes amb determinació, veient obstacles com a oportunitats per créixer i millorar les meves habilitats."
+        },
+        "adaptability": {
+          "title": "Adaptabilitat",
+          "description": "Abraço el canvi i m'ajusto ràpidament a nous entorns, tecnologies i dinàmiques d'equip amb flexibilitat."
+        },
+        "critical": {
+          "title": "Pensament Crític",
+          "description": "Analitzo situacions des de múltiples angles per prendre decisions ben informades i resoldre problemes efectivament."
+        }
+      },
+      "illustration": {
+        "title": "Il·lustradora Digital",
+        "subtitle": "El Meu Costat Creatiu",
+        "text1": "Més enllà de la programació, sóc una <span class='text-purple-400 font-semibold'>il·lustradora digital freelance</span>. Creo art personalitzat per a clients que va des de dissenys de clauers fins a dissenys de personatges i il·lustracions de marca o personals.",
+        "text2": "Aquesta doble carrera professional enriqueix tant el meu treball tècnic com creatiu. La meva experiència en il·lustració m'ajuda a:",
+        "benefits": {
+          "design": "Dissenyar interfícies més atractives visualment i amigables per a l'usuari",
+          "color": "Entendre teoria del color, composició i jerarquia visual",
+          "communicate": "Comunicar idees complexes a través de narrativa visual",
+          "perspective": "Aportar una perspectiva artística única a projectes de desenvolupament web"
+        }
+      },
+      "hobbies": {
+        "title": "Hobbies i Interessos",
+        "digitalArt": {
+          "title": "Il·lustració Digital",
+          "description": "Treballo com a il·lustradora freelance, creant art per a clients i projectes personals."
+        },
+        "gaming": {
+          "title": "Videojocs",
+          "description": "Jugadora apassionada que estima explorar mons immersius i experimentar narratives interactives."
+        },
+        "music": {
+          "title": "Amant de la Música",
+          "description": "La música és la meva companya constant - m'encanta descobrir nous artistes i perdre'm en diferents gèneres."
+        },
+        "singing": {
+          "title": "Cant",
+          "description": "Gaudeixo cantant com una forma d'expressar-me i relaxar-me després d'un llarg dia de programació."
+        },
+        "photography": {
+          "title": "Fotografia",
+          "description": "Capturant moments i jugant amb llum, composició i perspectiva a través de la meva lent."
+        },
+        "animation": {
+          "title": "Animació & Pel·lícules",
+          "description": "Gran fan de sèries animades i pel·lícules - inspiren la meva creativitat i treball artístic."
+        },
+        "traditional": {
+          "title": "Art Tradicional",
+          "description": "Gaudeixo fent esbossos, pintant i experimentant amb diferents mitjans artístics."
+        },
+        "reading": {
+          "title": "Lectura & Aprenentatge",
+          "description": "Lectora àvida de blogs de tecnologia, llibres de disseny i concepte, i novel·les de ciència ficció/històriques/drama que alimenten la meva imaginació."
+        }
+      }
+    },
+    "contact": {
+      "title": "Connectem",
+      "subtitle": "Troba'm en aquestes plataformes o contacta'm directament",
+      "platforms": {
+        "github": {
+          "name": "GitHub",
+          "username": "@annvals",
+          "description": "Revisa el meu codi i projectes"
+        },
+        "linkedin": {
+          "name": "LinkedIn",
+          "username": "Ángela P. Centelles Insa",
+          "description": "Connectem professionalment"
+        },
+        "instagram": {
+          "name": "Instagram",
+          "username": "@valsart.jpg",
+          "description": "Segueix el meu viatge creatiu"
+        },
+        "gallifrex": {
+          "name": "Gallifrex",
+          "username": "El Meu Projecte",
+          "description": "Explora el meu projecte"
+        },
+        "infojobs": {
+          "name": "InfoJobs",
+          "username": "Perfil Professional",
+          "description": "Veu la meva experiència professional"
+        },
+        "email": {
+          "name": "Email",
+          "username": "anceninpil@gmail.com",
+          "description": "Envia'm un missatge"
+        }
+      },
+      "ready": {
+        "title": "Llest per contactar-me?",
+        "message": "Ja sigui que tinguis un projecte en ment, vulguis discutir oportunitats, o simplement vulguis saludar, m'encantaria saber de tu! No dubtis en contactar-me a través de qualsevol de les plataformes anteriors. Espero conèixer-te aviat! :)"
+      },
+      "footer": {
+        "createdWith": "Portfolio creat amb",
+        "developedBy": "Desenvolupat per",
+        "rights": "Tots els drets reservats"
+      }
+    }
+  }

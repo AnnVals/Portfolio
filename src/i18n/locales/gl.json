@@ -1,0 +1,189 @@
+{
+    "hero": {
+      "name": "Ángela P. Centelles Insa",
+      "title": "Desenvolvedora Web Full Stack & Deseñadora | Ilustradora",
+      "description": "Desenvolvedora full-stack apaixonada con visión artística. O meu enfoque é combinar frontend, backend, bases de datos, frameworks e IA para ofrecer solucións robustas e creativas.",
+      "downloadCV": "Descargar o meu CV",
+      "contact": "Contáctame"
+    },
+    "skills": {
+      "title": "Habilidades Técnicas",
+      "subtitle": "Tecnoloxías coas que traballo para dar vida ás ideas",
+      "categories": {
+        "frontend": "Frontend",
+        "backend": "Backend",
+        "devops": "DevOps & Infraestrutura",
+        "database": "Base de Datos",
+        "tools": "Ferramentas de Desenvolvemento & Metodoloxías",
+        "design": "Deseño & Creatividade"
+      }
+    },
+    "timeline": {
+      "title": "A Miña Viaxe a Través do Tempo",
+      "subtitle": "Unha liña de tempo da miña experiencia profesional e crecemento como desenvolvedora",
+      "experiences": {
+        "current": {
+          "year": "2025-Presente",
+          "title": "Desenvolvedora Full Stack",
+          "company": "Buscando Novas Oportunidades",
+          "description": "Buscando activamente unha posición onde poida aplicar as miñas habilidades de desenvolvemento full-stack. Mentres busco, continúo aprendendo e expandindo a miña experiencia en tecnoloxías modernas e mellores prácticas de desenvolvemento."
+        },
+        "intern": {
+          "year": "2025",
+          "title": "Becaria de Desenvolvemento de Software",
+          "company": "F10 Informática",
+          "description": "Completei prácticas onde gañei experiencia práctica con desenvolvemento de software empresarial, transformando deseños en aplicacións funcionais e aprendendo ferramentas estándar da industria."
+        },
+        "graduate": {
+          "year": "2025",
+          "title": "Desenvolvedora Full Stack",
+          "company": "CPIFP Bajo Aragón",
+          "description": "Apliquei e expandín a miña experiencia técnica para desenvolver un proxecto integral de fin de grao, chamado Gallifrex, combinando todo o que aprendín durante os meus estudos con novas tecnoloxías para entregar unha solución full-stack completa."
+        },
+        "junior": {
+          "year": "2023-2025",
+          "title": "Desenvolvedora Web Junior",
+          "company": "CPIFP Bajo Aragón",
+          "description": "Comecei a miña viaxe en programación construíndo sitios web responsivos e aprendendo desenvolvemento full-stack."
+        }
+      },
+      "technologies": "Tecnoloxías"
+    },
+    "about": {
+      "title": "Sobre Min",
+      "subtitle": "Unha mestura de tecnoloxía e creatividade",
+      "journey": {
+        "title": "A Miña Viaxe",
+        "text1": "Son unha <span class='text-blue-400 font-semibold'>desenvolvedora full-stack</span> e <span class='text-purple-400 font-semibold'>ilustradora dixital</span> baseada en España. A miña viaxe na tecnoloxía comezou cunha fascinación por como funcionan as cousas, e evolucionou nunha paixón por construílas.",
+        "text2": "O que me distingue é a miña combinación única de habilidades técnicas e visión artística. Como ilustradora, desenvolvin un profundo entendemento do <span class='text-pink-400 font-semibold'>deseño visual, experiencia de usuario e narrativa creativa</span>; habilidades que se traducen directamente en crear aplicacións web fermosas e intuitivas.",
+        "text3": "Cando non estou programando ou debuxando, atoparasme explorando novas tendencias de deseño, xogando a videoxogos, capturando momentos a través da fotografía, ou cantando as miñas cancións favoritas. Son unha gran fan de series animadas e películas, e creo que a música é a banda sonora da creatividade. Creo que o futuro do desenvolvemento web reside na intersección de <span class='text-cyan-400 font-semibold'>funcionalidade e estética</span>, e esfórzome por encarnar ese equilibrio en todo o que creo."
+      },
+      "softSkills": {
+        "title": "Habilidades Brandas",
+        "creative": {
+          "title": "Resolución Creativa de Problemas",
+          "description": "Combino pensamento analítico con enfoques creativos para atopar solucións innovadoras a retos complexos."
+        },
+        "team": {
+          "title": "Colaboración en Equipo",
+          "description": "Desenrólome en ambientes colaborativos, valorando perspectivas diversas e fomentando dinámicas de equipo positivas."
+        },
+        "learning": {
+          "title": "Aprendizaxe Continua",
+          "description": "Apaixonada por manterse actualizada con novas tecnoloxías e expandir constantemente o meu conxunto de habilidades."
+        },
+        "attention": {
+          "title": "Atención ao Detalle",
+          "description": "O meu trasfondo artístico dame un ollo agudo para detalles de deseño e refinamento de experiencia de usuario."
+        },
+        "empathy": {
+          "title": "Empatía",
+          "description": "Conecto profundamente co meu equipo e contorno, entendendo diferentes perspectivas para construír relacións máis fortes e solucións colaborativas."
+        },
+        "perseverance": {
+          "title": "Perseveranza",
+          "description": "Enfronto retos con determinación, vendo obstáculos como oportunidades para crecer e mellorar as miñas habilidades."
+        },
+        "adaptability": {
+          "title": "Adaptabilidade",
+          "description": "Abrazo o cambio e axústome rapidamente a novos contornos, tecnoloxías e dinámicas de equipo con flexibilidade."
+        },
+        "critical": {
+          "title": "Pensamento Crítico",
+          "description": "Analizo situacións desde múltiples ángulos para tomar decisións ben informadas e resolver problemas efectivamente."
+        }
+      },
+      "illustration": {
+        "title": "Ilustradora Dixital",
+        "subtitle": "O Meu Lado Creativo",
+        "text1": "Máis alá da programación, son unha <span class='text-purple-400 font-semibold'>ilustradora dixital freelance</span>. Creo arte personalizada para clientes que vai desde deseños de chaveiros ata deseños de personaxes e ilustracións de marca ou persoais.",
+        "text2": "Esta dobre carreira profesional enriquece tanto o meu traballo técnico como creativo. A miña experiencia en ilustración axúdame a:",
+        "benefits": {
+          "design": "Deseñar interfaces máis atractivas visualmente e amigables para o usuario",
+          "color": "Entender teoría da cor, composición e xerarquía visual",
+          "communicate": "Comunicar ideas complexas a través de narrativa visual",
+          "perspective": "Aportar unha perspectiva artística única a proxectos de desenvolvemento web"
+        }
+      },
+      "hobbies": {
+        "title": "Hobbies e Intereses",
+        "digitalArt": {
+          "title": "Ilustración Dixital",
+          "description": "Traballo como ilustradora freelance, creando arte para clientes e proxectos persoais."
+        },
+        "gaming": {
+          "title": "Videoxogos",
+          "description": "Xogadora apaixonada que ama explorar mundos inmersivos e experimentar narrativas interactivas."
+        },
+        "music": {
+          "title": "Amante da Música",
+          "description": "A música é a miña compañeira constante - encántame descubrir novos artistas e perderme en diferentes xéneros."
+        },
+        "singing": {
+          "title": "Canto",
+          "description": "Gozo cantando como unha forma de expresarme e relaxarme despois dun longo día de programación."
+        },
+        "photography": {
+          "title": "Fotografía",
+          "description": "Capturando momentos e xogando con luz, composición e perspectiva a través da miña lente."
+        },
+        "animation": {
+          "title": "Animación & Películas",
+          "description": "Gran fan de series animadas e películas - inspiran a miña creatividade e traballo artístico."
+        },
+        "traditional": {
+          "title": "Arte Tradicional",
+          "description": "Gozo facendo bosquexos, pintando e experimentando con diferentes medios artísticos."
+        },
+        "reading": {
+          "title": "Lectura & Aprendizaxe",
+          "description": "Lectora ávida de blogs de tecnoloxía, libros de deseño e concepto, e novelas de ciencia ficción/históricas/drama que alimentan a miña imaxinación."
+        }
+      }
+    },
+    "contact": {
+      "title": "Conectemos",
+      "subtitle": "Atópame nestas plataformas ou contáctame directamente",
+      "platforms": {
+        "github": {
+          "name": "GitHub",
+          "username": "@annvals",
+          "description": "Revisa o meu código e proxectos"
+        },
+        "linkedin": {
+          "name": "LinkedIn",
+          "username": "Ángela P. Centelles Insa",
+          "description": "Conectemos profesionalmente"
+        },
+        "instagram": {
+          "name": "Instagram",
+          "username": "@valsart.jpg",
+          "description": "Sigue a miña viaxe creativa"
+        },
+        "gallifrex": {
+          "name": "Gallifrex",
+          "username": "O Meu Proxecto",
+          "description": "Explora o meu proxecto"
+        },
+        "infojobs": {
+          "name": "InfoJobs",
+          "username": "Perfil Profesional",
+          "description": "Ve a miña experiencia profesional"
+        },
+        "email": {
+          "name": "Email",
+          "username": "anceninpil@gmail.com",
+          "description": "Envíame unha mensaxe"
+        }
+      },
+      "ready": {
+        "title": "Listo para contactarme?",
+        "message": "Xa sexa que teñas un proxecto en mente, queiras discutir oportunidades, ou simplemente queiras saudar, encantaríame saber de ti! Non dubides en contactarme a través de calquera das plataformas anteriores. Espero coñecerte pronto! :)"
+      },
+      "footer": {
+        "createdWith": "Portfolio creado con",
+        "developedBy": "Desenvolvido por",
+        "rights": "Todos os dereitos reservados"
+      }
+    }
+  }
