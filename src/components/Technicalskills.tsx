@@ -46,6 +46,7 @@ import {BiRefresh } from "react-icons/bi";
 import { ImLoop } from "react-icons/im";
 import { BsKanban } from "react-icons/bs";
 import { TbRefresh } from "react-icons/tb";
+import { GiArchiveRegister } from "react-icons/gi";
 
 interface TechSkill {
   icon: ReactNode;
@@ -143,6 +144,11 @@ export default function TechnicalSkills() {
           icon: <FaJava className="text-5xl" />,
           name: "Java",
           color: "text-red-400",
+        },
+        {
+          icon: <GiArchiveRegister className="text-5xl" />,
+          name: "MVC Frameworks (Laravel/Custom)",
+          color: "text-purple-400",
         },
       ],
     },
