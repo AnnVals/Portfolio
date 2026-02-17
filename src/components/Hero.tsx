@@ -227,7 +227,7 @@ export default function Hero() {
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                       <a
-                        href="/cvAngelaCentelles.pdf"
+                        href="/CVAngelaCentelles26.pdf"
                         download
                         className="bg-slate-700 hover:bg-slate-600 text-slate-100 px-6 py-3 rounded-md transform hover:scale-105 transition duration-300 font-medium flex items-center justify-center gap-2 border border-slate-600"
                       >
