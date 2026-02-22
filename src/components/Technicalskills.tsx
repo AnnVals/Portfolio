@@ -36,13 +36,18 @@ import {
   SiApache,
   SiNginx,
   SiLinux,
+  SiPostgresql,
+  SiVercel,
+  SiRender,
+  SiFramer,
+  SiReactquery,
 } from "react-icons/si";
 import type { ReactNode } from "react";
 import { DiMongodb, DiScrum, DiVisualstudio } from "react-icons/di";
 import { GoCopilot } from "react-icons/go";
 import { RiNextjsFill } from "react-icons/ri";
 import { BiCloudDownload } from "react-icons/bi";
-import {BiRefresh } from "react-icons/bi";
+import { BiRefresh } from "react-icons/bi";
 import { ImLoop } from "react-icons/im";
 import { BsKanban } from "react-icons/bs";
 import { TbRefresh } from "react-icons/tb";
@@ -117,6 +122,21 @@ export default function TechnicalSkills() {
           name: "Vite",
           color: "text-purple-400",
         },
+        {
+          icon: <SiReactquery className="text-5xl" />,
+          name: "TanStack Query",
+          color: "text-red-400",
+        },
+        {
+          icon: <FaDatabase className="text-5xl" />,
+          name: "Zustand",
+          color: "text-orange-400",
+        },
+        {
+          icon: <SiFramer className="text-5xl" />,
+          name: "Framer Motion",
+          color: "text-purple-400",
+        },
       ],
     },
     {
@@ -129,6 +149,11 @@ export default function TechnicalSkills() {
           icon: <FaNodeJs className="text-5xl" />,
           name: "Node.js",
           color: "text-green-500",
+        },
+        {
+          icon: <GiArchiveRegister className="text-5xl" />,
+          name: "Express.js",
+          color: "text-gray-300",
         },
         {
           icon: <FaPython className="text-5xl" />,
@@ -198,7 +223,21 @@ export default function TechnicalSkills() {
           name: "CI/CD",
           color: "text-gray-400",
         },
-        { icon: <FaNetworkWired className="text-5xl" />, name: "Subnetting", color: "text-blue-400" },
+        {
+          icon: <FaNetworkWired className="text-5xl" />,
+          name: "Subnetting",
+          color: "text-blue-400",
+        },
+        {
+          icon: <SiVercel className="text-5xl" />,
+          name: "Vercel",
+          color: "text-white",
+        },
+        {
+          icon: <SiRender className="text-5xl" />,
+          name: "Render",
+          color: "text-green-400",
+        },
       ],
     },
     {
@@ -207,6 +246,11 @@ export default function TechnicalSkills() {
       gradientTo: "to-pink-900/30",
       borderColor: "border-purple-500/30",
       skills: [
+        {
+          icon: <SiPostgresql className="text-5xl" />,
+          name: "PostgreSQL",
+          color: "text-blue-400",
+        },
         {
           icon: <SiMysql className="text-5xl" />,
           name: "MySQL",
@@ -244,8 +288,8 @@ export default function TechnicalSkills() {
         },
         {
           icon: <FaDatabase className="text-5xl" />,
-          name: "i18n",
-          color: "text-gray-200",
+          name: "Neon (Cloud DB)",
+          color: "text-green-300",
         },
         {
           icon: <BiCloudDownload className="text-5xl" />,
@@ -300,9 +344,21 @@ export default function TechnicalSkills() {
           name: "Scrum",
           color: "text-green-400",
         },
-        {icon: <TbRefresh className="text-5xl" />, name: "Agile", color: "text-orange-400" },
-        {icon: <BsKanban className="text-5xl" />, name: "Kanban", color: "text-blue-400" },
-        {icon: <BiRefresh  className="text-5xl" />, name: "TDD", color: "text-gray-200" },
+        {
+          icon: <TbRefresh className="text-5xl" />,
+          name: "Agile",
+          color: "text-orange-400",
+        },
+        {
+          icon: <BsKanban className="text-5xl" />,
+          name: "Kanban",
+          color: "text-blue-400",
+        },
+        {
+          icon: <BiRefresh className="text-5xl" />,
+          name: "TDD",
+          color: "text-gray-200",
+        },
       ],
     },
     {
