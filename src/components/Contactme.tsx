@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import "./Skills.css";
-import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaBriefcase } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaInstagram, FaEnvelope, FaBriefcase, FaPaintBrush } from "react-icons/fa";
 import type { ReactNode } from "react";
 
 interface SocialLink {
@@ -45,17 +45,13 @@ export default function ContactMe() {
       description: t('contact.platforms.instagram.description')
     },
     {
-      icon: (
-        <svg className="w-14 h-14" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
-        </svg>
-      ),
-      name: t('contact.platforms.gallifrex.name'),
-      username: t('contact.platforms.gallifrex.username'),
-      url: "https://gallifrex.com",
+      icon: <FaPaintBrush className="text-5xl" />,
+      name: t('contact.platforms.vgen.name'),
+      username: t('contact.platforms.vgen.username'),
+      url: "https://vgen.co/ValsArtJPG",
       color: "text-purple-400",
       hoverColor: "hover:text-purple-300",
-      description: t('contact.platforms.gallifrex.description')
+      description: t('contact.platforms.vgen.description')
     },
     {
       icon: <FaBriefcase className="text-5xl" />,
