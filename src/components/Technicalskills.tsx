@@ -14,7 +14,8 @@ import {
   FaPaintBrush,
   FaJava,
   FaTrello,
-  FaNetworkWired
+  FaNetworkWired,
+  FaWordpress,
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -41,6 +42,9 @@ import {
   SiRender,
   SiFramer,
   SiReactquery,
+  SiWordpress,
+  SiWoocommerce,
+  SiElementor,
 } from "react-icons/si";
 import type { ReactNode } from "react";
 import { DiMongodb, DiScrum, DiVisualstudio } from "react-icons/di";
@@ -137,6 +141,21 @@ export default function TechnicalSkills() {
           name: "Framer Motion",
           color: "text-purple-400",
         },
+        {
+          icon: <SiWordpress className="text-5xl" />,
+          name: "WordPress",
+          color: "text-blue-400",
+        },
+        {
+          icon: <SiElementor className="text-5xl" />,
+          name: "Elementor",
+          color: "text-red-400",
+        },
+        {
+          icon: <FaPaintBrush className="text-5xl" />,
+          name: "Themes Dev",
+          color: "text-cyan-400",
+        },
       ],
     },
     {
@@ -174,6 +193,27 @@ export default function TechnicalSkills() {
           icon: <GiArchiveRegister className="text-5xl" />,
           name: "MVC Frameworks (Laravel/Custom)",
           color: "text-purple-400",
+        },
+        // WordPress backend ecosystem
+        {
+          icon: <SiWoocommerce className="text-5xl" />,
+          name: "WooCommerce",
+          color: "text-purple-500",
+        },
+        {
+          icon: <FaWordpress className="text-5xl" />,
+          name: "WordPress REST API",
+          color: "text-blue-300",
+        },
+        {
+          icon: <FaPhp className="text-5xl" />,
+          name: "WordPress Hooks",
+          color: "text-indigo-300",
+        },
+        {
+          icon: <FaPaintBrush className="text-5xl" />,
+          name: "Plugins Dev",
+          color: "text-green-300",
         },
       ],
     },
