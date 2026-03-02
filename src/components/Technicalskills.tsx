@@ -16,6 +16,7 @@ import {
   FaTrello,
   FaNetworkWired,
   FaWordpress,
+  FaAngular,
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -85,6 +86,11 @@ export default function TechnicalSkills() {
           icon: <FaReact className="text-5xl" />,
           name: "React",
           color: "text-cyan-400",
+        },
+        {
+          icon: <FaAngular className="text-5xl" />,
+          name: "Angular",
+          color: "text-red-400",
         },
         {
           icon: <RiNextjsFill className="text-5xl" />,
