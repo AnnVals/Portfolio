@@ -50,6 +50,7 @@ import {
   SiChartdotjs,
   SiLaravel,
   SiExpress,
+  SiSass,
 } from "react-icons/si";
 import type { ReactNode } from "react";
 import { DiMongodb, DiScrum, DiVisualstudio } from "react-icons/di";
@@ -119,6 +120,11 @@ export default function TechnicalSkills() {
           icon: <FaCss3Alt className="text-5xl" />,
           name: "CSS3",
           color: "text-blue-500",
+        },
+        {
+          icon: <SiSass className="text-5xl" />,
+          name: "SCSS",
+          color: "text-pink-400",
         },
         {
           icon: <SiBootstrap className="text-5xl" />,
