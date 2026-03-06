@@ -51,6 +51,7 @@ import {
   SiLaravel,
   SiExpress,
   SiSass,
+  SiVitest,
   SiJest,
 } from "react-icons/si";
 import type { ReactNode } from "react";
@@ -418,6 +419,11 @@ export default function TechnicalSkills() {
           icon: <BsKanban className="text-5xl" />,
           name: "Kanban",
           color: "text-blue-400",
+        },
+        {
+          icon: <SiVitest className="text-5xl" />,
+          name: "Vitest",
+          color: "text-green-400",
         },
         {
           icon: <SiJest className="text-5xl" />,
