@@ -17,6 +17,7 @@ import {
   FaNetworkWired,
   FaWordpress,
   FaAngular,
+  FaLock,
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -46,6 +47,9 @@ import {
   SiWordpress,
   SiWoocommerce,
   SiElementor,
+  SiChartdotjs,
+  SiLaravel,
+  SiExpress,
 } from "react-icons/si";
 import type { ReactNode } from "react";
 import { DiMongodb, DiScrum, DiVisualstudio } from "react-icons/di";
@@ -56,7 +60,6 @@ import { BiRefresh } from "react-icons/bi";
 import { ImLoop } from "react-icons/im";
 import { BsKanban } from "react-icons/bs";
 import { TbRefresh } from "react-icons/tb";
-import { GiArchiveRegister } from "react-icons/gi";
 
 interface TechSkill {
   icon: ReactNode;
@@ -148,6 +151,11 @@ export default function TechnicalSkills() {
           color: "text-purple-400",
         },
         {
+          icon: <SiChartdotjs className="text-5xl" />,
+          name: "Chart.js",
+          color: "text-pink-400",
+        },
+        {
           icon: <SiWordpress className="text-5xl" />,
           name: "WordPress",
           color: "text-blue-400",
@@ -176,9 +184,14 @@ export default function TechnicalSkills() {
           color: "text-green-500",
         },
         {
-          icon: <GiArchiveRegister className="text-5xl" />,
+          icon: <SiExpress className="text-5xl" />,
           name: "Express.js",
           color: "text-gray-300",
+        },
+        {
+          icon: <FaLock className="text-5xl" />,
+          name: "JWT",
+          color: "text-yellow-400",
         },
         {
           icon: <FaPython className="text-5xl" />,
@@ -196,11 +209,10 @@ export default function TechnicalSkills() {
           color: "text-red-400",
         },
         {
-          icon: <GiArchiveRegister className="text-5xl" />,
-          name: "MVC Frameworks (Laravel/Custom)",
-          color: "text-purple-400",
+          icon: <SiLaravel className="text-5xl" />,
+          name: "Laravel",
+          color: "text-red-500",
         },
-        // WordPress backend ecosystem
         {
           icon: <SiWoocommerce className="text-5xl" />,
           name: "WooCommerce",
@@ -372,7 +384,7 @@ export default function TechnicalSkills() {
         },
         {
           icon: <SiClaude className="text-5xl" />,
-          name: "Claude AI and more AIs",
+          name: "AI Tools",
           color: "text-green-400",
         },
         {
