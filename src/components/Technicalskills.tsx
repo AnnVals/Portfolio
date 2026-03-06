@@ -51,6 +51,7 @@ import {
   SiLaravel,
   SiExpress,
   SiSass,
+  SiJest,
 } from "react-icons/si";
 import type { ReactNode } from "react";
 import { DiMongodb, DiScrum, DiVisualstudio } from "react-icons/di";
@@ -417,6 +418,11 @@ export default function TechnicalSkills() {
           icon: <BsKanban className="text-5xl" />,
           name: "Kanban",
           color: "text-blue-400",
+        },
+        {
+          icon: <SiJest className="text-5xl" />,
+          name: "Jest",
+          color: "text-red-400",
         },
         {
           icon: <BiRefresh className="text-5xl" />,
