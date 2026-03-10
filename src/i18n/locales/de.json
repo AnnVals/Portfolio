@@ -22,29 +22,41 @@
     "title": "Meine Reise Durch die Zeit",
     "subtitle": "Eine Zeitleiste meiner beruflichen Erfahrung und meines Wachstums als Entwicklerin",
     "experiences": {
+      "seeking": {
+        "year": "Gegenwart",
+        "title": "Auf Jobsuche",
+        "company": "Offen für neue Möglichkeiten",
+        "description": "Ich suche aktiv meine erste Stelle als Full-Stack-Webentwicklerin. Offen für Möglichkeiten, die mir erlauben zu wachsen, zu lernen und mit meinen technischen und kreativen Fähigkeiten einen Beitrag zu leisten."
+      },
       "current": {
-        "year": "2025-Gegenwart",
-        "title": "Full Stack Entwicklerin",
-        "company": "Auf der Suche nach neuen Möglichkeiten",
-        "description": "Aktiv auf der Suche nach einer Position, in der ich meine Full-Stack-Entwicklungsfähigkeiten anwenden kann. Während meiner Suche lerne ich weiter und erweitere meine Expertise in modernen Technologien und Best Practices der Entwicklung."
+        "year": "Feb 2026 – Gegenwart",
+        "title": "Open-Source-Projekte",
+        "company": "DocMind · Gallifrex 2.0 · BacklogVault",
+        "description": "Entwicklung von drei vollständigen Open-Source-Webanwendungen: DocMind (PDF-Chat mit lokaler KI via Ollama), Gallifrex 2.0 (Neugestaltung meines Abschlussprojekts mit Angular und PostgreSQL) und BacklogVault (Spielebacklog-Manager mit Steam-Integration). Entkoppelte Architekturen mit Vue 3, Angular 21, React 18 und Node.js."
       },
       "intern": {
-        "year": "2025",
-        "title": "Praktikantin Softwareentwicklung",
+        "year": "Sep – Dez 2025",
+        "title": "Webentwicklerin",
         "company": "F10 Informática",
-        "description": "Habe ein Praktikum abgeschlossen, bei dem ich praktische Erfahrung mit Unternehmenssoftwareentwicklung gesammelt, Design-Mockups in funktionale Anwendungen umgewandelt und branchenübliche Werkzeuge erlernt habe."
+        "description": "Entwickelte Webanwendungen mit Genexus und Oracle, erledigte 100% des zugewiesenen Moduls fristgerecht mit agilen Methoden. Integrierte KI-Tools zur Optimierung von Arbeitsabläufen und zur Beschleunigung der Entwicklung."
       },
       "graduate": {
-        "year": "2025",
-        "title": "Full Stack Entwicklerin",
+        "year": "Jun – Sep 2025",
+        "title": "Full Stack Entwicklerin – TFG Gallifrex",
         "company": "CPIFP Bajo Aragón",
-        "description": "Habe meine technische Expertise angewendet und erweitert, um ein umfassendes Abschlussprojekt namens Gallifrex zu entwickeln, das alles kombiniert, was ich während meines Studiums gelernt habe, mit neuen Technologien, um eine vollständige Full-Stack-Lösung zu liefern."
+        "description": "Entwickelte Gallifrex als Abschlussprojekt: eine vollständige Full-Stack-App mit MVC/Laravel, React, Docker, CI/CD mit GitHub Actions und Produktionsbereitstellung. Verwaltete den kompletten Zyklus vom Figma-Prototyp bis zur Bereitstellung."
       },
       "junior": {
-        "year": "2023-2025",
+        "year": "2023 – 2025",
         "title": "Junior Webentwicklerin",
         "company": "CPIFP Bajo Aragón",
-        "description": "Habe meine Programmierreise begonnen, indem ich responsive Websites erstellt und Full-Stack-Entwicklung gelernt habe."
+        "description": "Höhere Berufsausbildung in Webapplikationsentwicklung. Erlernte Full-Stack-Entwicklung: Frontend, Backend, Datenbanken, Linux, Docker, Git und agile Methoden. Solide technische Grundlage in Java, PHP, JavaScript, MySQL und PL/SQL."
+      },
+      "arts": {
+        "year": "2016 – 2020",
+        "title": "Bachelor in Bildenden Künsten",
+        "company": "UCM Madrid / Universitat de Barcelona",
+        "description": "Höhere Kunstausbildung, die meine kreative Vision, Farbbeherrschung, Komposition und visuelles Storytelling entwickelte. Eine Grundlage, die meine Arbeit als Frontend-Entwicklerin und Interface-Designerin direkt bereichert."
       }
     },
     "technologies": "Technologien"

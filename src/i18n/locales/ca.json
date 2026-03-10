@@ -22,29 +22,41 @@
     "title": "El Meu Viatge a Través del Temps",
     "subtitle": "Una línia de temps de la meva experiència professional i creixement com a desenvolupadora",
     "experiences": {
+      "seeking": {
+        "year": "Actualitat",
+        "title": "En Cerca de Feina",
+        "company": "Oberta a noves oportunitats",
+        "description": "Busco activament la meva primera feina com a desenvolupadora web full-stack. Estic oberta a oportunitats que em permetin créixer, aprendre i aportar valor amb les meves habilitats tècniques i creatives."
+      },
       "current": {
-        "year": "2025-Present",
-        "title": "Desenvolupadora Full Stack",
-        "company": "Buscant Noves Oportunitats",
-        "description": "Buscant activament una posició on pugui aplicar les meves habilitats de desenvolupament full-stack. Mentre busco, continuo aprenent i expandint la meva experiència en tecnologies modernes i millors pràctiques de desenvolupament."
+        "year": "Feb 2026 – Actualitat",
+        "title": "Projectes Open Source",
+        "company": "DocMind · Gallifrex 2.0 · BacklogVault",
+        "description": "Desenvolupament de tres aplicacions web completes i open source: DocMind (xat amb PDFs usant IA local amb Ollama), Gallifrex 2.0 (reformulació del meu TFG amb Angular i PostgreSQL) i BacklogVault (gestor de backlog amb integració Steam). Arquitectures desacoblades amb Vue 3, Angular 21, React 18 i Node.js."
       },
       "intern": {
-        "year": "2025",
-        "title": "Becària de Desenvolupament de Software",
+        "year": "Set – Des 2025",
+        "title": "Desenvolupadora Web",
         "company": "F10 Informática",
-        "description": "Vaig completar pràctiques on vaig guanyar experiència pràctica amb desenvolupament de software empresarial, transformant dissenys en aplicacions funcionals i aprenent eines estàndard de la indústria."
+        "description": "Vaig desenvolupar aplicacions web amb Genexus i Oracle, completant el 100% del mòdul assignat en termini aplicant metodologies àgils. Vaig integrar eines d'intel·ligència artificial per optimitzar fluxos de treball i accelerar el desenvolupament."
       },
       "graduate": {
-        "year": "2025",
-        "title": "Desenvolupadora Full Stack",
+        "year": "Jun – Set 2025",
+        "title": "Desenvolupadora Full Stack – TFG Gallifrex",
         "company": "CPIFP Bajo Aragón",
-        "description": "Vaig aplicar i expandir la meva experiència tècnica per desenvolupar un projecte integral de fi de grau, anomenat Gallifrex, combinant tot el que vaig aprendre durant els meus estudis amb noves tecnologies per entregar una solució full-stack completa."
+        "description": "Vaig desenvolupar Gallifrex com a projecte de fi de grau: aplicació full-stack completa amb MVC/Laravel, React, Docker, CI/CD amb GitHub Actions i desplegament en producció. Gestió del cicle complet des del prototipat a Figma fins al desplegament."
       },
       "junior": {
-        "year": "2023-2025",
+        "year": "2023 – 2025",
         "title": "Desenvolupadora Web Junior",
         "company": "CPIFP Bajo Aragón",
-        "description": "Vaig començar el meu viatge en programació construint llocs web responsius i aprenent desenvolupament full-stack."
+        "description": "Formació en el cicle superior de Desenvolupament d'Aplicacions Web. Aprenentatge de desenvolupament full-stack: frontend, backend, bases de dades, Linux, Docker, Git i metodologies àgils. Base tècnica sòlida en Java, PHP, JavaScript, MySQL i PL/SQL."
+      },
+      "arts": {
+        "year": "2016 – 2020",
+        "title": "Grau en Belles Arts",
+        "company": "UCM Madrid / Universitat de Barcelona",
+        "description": "Formació artística superior que va desenvolupar la meva visió creativa, domini del color, composició i narrativa visual. Una base que enriqueix directament el meu treball com a desenvolupadora frontend i dissenyadora d'interfícies."
       }
     },
     "technologies": "Tecnologies"
@@ -90,7 +102,7 @@
       },
       "critical": {
         "title": "Pensament Crític",
-        "description": "Analitzo situacions des de múltiples angles per prendre decisions ben informades i resoldre problemes efectivament."
+        "description": "Analitzo situacions des de múltiples angles per prendre decisions ben informades i resolver problemes efectivament."
       }
     },
     "illustration": {

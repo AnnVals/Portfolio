@@ -22,29 +22,41 @@
     "title": "A Miña Viaxe a Través do Tempo",
     "subtitle": "Unha liña de tempo da miña experiencia profesional e crecemento como desenvolvedora",
     "experiences": {
+      "seeking": {
+        "year": "Actualidade",
+        "title": "En Busca de Emprego",
+        "company": "Aberta a novas oportunidades",
+        "description": "Busco activamente o meu primeiro emprego como desenvolvedora web full-stack. Estou aberta a oportunidades que me permitan crecer, aprender e achegar valor coas miñas habilidades técnicas e creativas."
+      },
       "current": {
-        "year": "2025-Presente",
-        "title": "Desenvolvedora Full Stack",
-        "company": "Buscando Novas Oportunidades",
-        "description": "Buscando activamente unha posición onde poida aplicar as miñas habilidades de desenvolvemento full-stack. Mentres busco, continúo aprendendo e expandindo a miña experiencia en tecnoloxías modernas e mellores prácticas de desenvolvemento."
+        "year": "Feb 2026 – Actualidade",
+        "title": "Proxectos Open Source",
+        "company": "DocMind · Gallifrex 2.0 · BacklogVault",
+        "description": "Desenvolvemento de tres aplicacións web completas e open source: DocMind (chat con PDFs usando IA local con Ollama), Gallifrex 2.0 (reformulación do meu TFG con Angular e PostgreSQL) e BacklogVault (xestor de backlog con integración Steam). Arquitecturas desacopladas con Vue 3, Angular 21, React 18 e Node.js."
       },
       "intern": {
-        "year": "2025",
-        "title": "Becaria de Desenvolvemento de Software",
+        "year": "Set – Dec 2025",
+        "title": "Desenvolvedora Web",
         "company": "F10 Informática",
-        "description": "Completei prácticas onde gañei experiencia práctica con desenvolvemento de software empresarial, transformando deseños en aplicacións funcionais e aprendendo ferramentas estándar da industria."
+        "description": "Desenvolvín aplicacións web con Genexus e Oracle, completando o 100% do módulo asignado en prazo aplicando metodoloxías áxiles. Integrei ferramentas de intelixencia artificial para optimizar fluxos de traballo e acelerar o desenvolvemento."
       },
       "graduate": {
-        "year": "2025",
-        "title": "Desenvolvedora Full Stack",
+        "year": "Xuñ – Set 2025",
+        "title": "Desenvolvedora Full Stack – TFG Gallifrex",
         "company": "CPIFP Bajo Aragón",
-        "description": "Apliquei e expandín a miña experiencia técnica para desenvolver un proxecto integral de fin de grao, chamado Gallifrex, combinando todo o que aprendín durante os meus estudos con novas tecnoloxías para entregar unha solución full-stack completa."
+        "description": "Desenvolvín Gallifrex como proxecto de fin de grao: aplicación full-stack completa con MVC/Laravel, React, Docker, CI/CD con GitHub Actions e despregamento en produción. Xestión do ciclo completo dende o prototipado en Figma ata o despregamento."
       },
       "junior": {
-        "year": "2023-2025",
+        "year": "2023 – 2025",
         "title": "Desenvolvedora Web Junior",
         "company": "CPIFP Bajo Aragón",
-        "description": "Comecei a miña viaxe en programación construíndo sitios web responsivos e aprendendo desenvolvemento full-stack."
+        "description": "Formación no ciclo superior de Desenvolvemento de Aplicacións Web. Aprendizaxe de desenvolvemento full-stack: frontend, backend, bases de datos, Linux, Docker, Git e metodoloxías áxiles. Base técnica sólida en Java, PHP, JavaScript, MySQL e PL/SQL."
+      },
+      "arts": {
+        "year": "2016 – 2020",
+        "title": "Grao en Belas Artes",
+        "company": "UCM Madrid / Universitat de Barcelona",
+        "description": "Formación artística superior que desenvolveu a miña visión creativa, dominio da cor, composición e narrativa visual. Unha base que enriquece directamente o meu traballo como desenvolvedora frontend e deseñadora de interfaces."
       }
     },
     "technologies": "Tecnoloxías"

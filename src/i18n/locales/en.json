@@ -22,29 +22,41 @@
     "title": "My Journey Through Time",
     "subtitle": "A timeline of my professional experience and growth as a developer",
     "experiences": {
+      "seeking": {
+        "year": "Present",
+        "title": "Looking for a Job",
+        "company": "Open to new opportunities",
+        "description": "Actively seeking my first full-stack web developer role. Open to opportunities that allow me to grow, keep learning, and contribute with my technical and creative skills."
+      },
       "current": {
-        "year": "2025-Present",
-        "title": "Full Stack Developer",
-        "company": "Seeking New Opportunities",
-        "description": "Actively seeking a position where I can apply my full-stack development skills. While searching, I continue learning and expanding my expertise in modern technologies and development best practices."
+        "year": "Feb 2026 – Present",
+        "title": "Open Source Projects",
+        "company": "DocMind · Gallifrex 2.0 · BacklogVault",
+        "description": "Development of three complete open source web apps: DocMind (PDF chat using local AI with Ollama), Gallifrex 2.0 (a full redesign of my final degree project using Angular and PostgreSQL) and BacklogVault (game backlog manager with Steam integration). Decoupled architectures with Vue 3, Angular 21, React 18 and Node.js."
       },
       "intern": {
-        "year": "2025",
-        "title": "Software Development Intern",
+        "year": "Sep – Dec 2025",
+        "title": "Web Developer",
         "company": "F10 Informática",
-        "description": "Completed internship where I gained hands-on experience with enterprise software development, transforming design mockups into functional applications and learning industry-standard tools."
+        "description": "Developed web applications with Genexus and Oracle, completing 100% of the assigned module on time using agile methodologies. Integrated AI tools to optimize workflows and accelerate development."
       },
       "graduate": {
-        "year": "2025",
-        "title": "Full Stack Developer",
+        "year": "Jun – Sep 2025",
+        "title": "Full Stack Developer – TFG Gallifrex",
         "company": "CPIFP Bajo Aragón",
-        "description": "Applied and expanded my technical expertise to develop a comprehensive end-of-degree project, named Gallifrex, combining everything I learnt throughout my studies with new technologies to deliver a complete full-stack solution."
+        "description": "Developed Gallifrex as a final degree project: a complete full-stack app using MVC/Laravel, React, Docker, CI/CD with GitHub Actions and production deployment. Managed the full cycle from Figma prototyping to deployment."
       },
       "junior": {
-        "year": "2023-2025",
+        "year": "2023 – 2025",
         "title": "Junior Web Developer",
         "company": "CPIFP Bajo Aragón",
-        "description": "Started my programming journey building responsive websites and learning full-stack development."
+        "description": "Higher vocational training in Web Application Development. Learned full-stack development: frontend, backend, databases, Linux, Docker, Git and agile methodologies. Solid technical foundation in Java, PHP, JavaScript, MySQL and PL/SQL."
+      },
+      "arts": {
+        "year": "2016 – 2020",
+        "title": "Bachelor's Degree in Fine Arts",
+        "company": "UCM Madrid / Universitat de Barcelona",
+        "description": "Higher arts education that developed my creative vision, mastery of color, composition and visual storytelling. A foundation that directly enriches my work as a frontend developer and interface designer."
       }
     },
     "technologies": "Technologies"

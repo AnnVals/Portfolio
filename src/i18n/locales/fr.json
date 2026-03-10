@@ -22,29 +22,41 @@
     "title": "Mon Voyage à Travers le Temps",
     "subtitle": "Une chronologie de mon expérience professionnelle et de ma croissance en tant que développeuse",
     "experiences": {
+      "seeking": {
+        "year": "Présent",
+        "title": "En Recherche d'Emploi",
+        "company": "Ouverte à de nouvelles opportunités",
+        "description": "Je recherche activement mon premier poste en tant que développeuse web full-stack. Ouverte aux opportunités qui me permettent de grandir, d'apprendre et d'apporter de la valeur avec mes compétences techniques et créatives."
+      },
       "current": {
-        "year": "2025-Présent",
-        "title": "Développeuse Full Stack",
-        "company": "À la Recherche de Nouvelles Opportunités",
-        "description": "Je recherche activement un poste où je peux appliquer mes compétences en développement full-stack. Pendant ma recherche, je continue d'apprendre et d'élargir mon expertise dans les technologies modernes et les meilleures pratiques de développement."
+        "year": "Fév 2026 – Présent",
+        "title": "Projets Open Source",
+        "company": "DocMind · Gallifrex 2.0 · BacklogVault",
+        "description": "Développement de trois applications web complètes open source : DocMind (chat avec PDFs via IA locale Ollama), Gallifrex 2.0 (reformulation de mon TFG avec Angular et PostgreSQL) et BacklogVault (gestionnaire de backlog avec intégration Steam). Architectures découplées avec Vue 3, Angular 21, React 18 et Node.js."
       },
       "intern": {
-        "year": "2025",
-        "title": "Stagiaire en Développement Logiciel",
+        "year": "Sep – Déc 2025",
+        "title": "Développeuse Web",
         "company": "F10 Informática",
-        "description": "J'ai terminé un stage où j'ai acquis une expérience pratique du développement de logiciels d'entreprise, transformant des maquettes de conception en applications fonctionnelles et apprenant les outils standard de l'industrie."
+        "description": "J'ai développé des applications web avec Genexus et Oracle, en complétant 100% du module assigné dans les délais avec des méthodologies agiles. J'ai intégré des outils d'intelligence artificielle pour optimiser les flux de travail et accélérer le développement."
       },
       "graduate": {
-        "year": "2025",
-        "title": "Développeuse Full Stack",
+        "year": "Jun – Sep 2025",
+        "title": "Développeuse Full Stack – TFG Gallifrex",
         "company": "CPIFP Bajo Aragón",
-        "description": "J'ai appliqué et élargi mon expertise technique pour développer un projet complet de fin d'études, nommé Gallifrex, combinant tout ce que j'ai appris au cours de mes études avec de nouvelles technologies pour fournir une solution full-stack complète."
+        "description": "J'ai développé Gallifrex comme projet de fin d'études : une application full-stack complète avec MVC/Laravel, React, Docker, CI/CD avec GitHub Actions et déploiement en production. Gestion du cycle complet du prototypage Figma jusqu'au déploiement."
       },
       "junior": {
-        "year": "2023-2025",
+        "year": "2023 – 2025",
         "title": "Développeuse Web Junior",
         "company": "CPIFP Bajo Aragón",
-        "description": "J'ai commencé mon voyage en programmation en construisant des sites web responsive et en apprenant le développement full-stack."
+        "description": "Formation supérieure en Développement d'Applications Web. Apprentissage du développement full-stack : frontend, backend, bases de données, Linux, Docker, Git et méthodologies agiles. Base technique solide en Java, PHP, JavaScript, MySQL et PL/SQL."
+      },
+      "arts": {
+        "year": "2016 – 2020",
+        "title": "Licence en Beaux-Arts",
+        "company": "UCM Madrid / Universitat de Barcelona",
+        "description": "Formation artistique supérieure qui a développé ma vision créative, la maîtrise des couleurs, la composition et la narration visuelle. Une base qui enrichit directement mon travail en tant que développeuse frontend et designer d'interfaces."
       }
     },
     "technologies": "Technologies"

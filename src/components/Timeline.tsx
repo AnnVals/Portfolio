@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./Timeline.css";
 import { AiFillEye } from "react-icons/ai";
-import { FaGraduationCap, FaRocket, FaStar } from "react-icons/fa";
+import { FaGraduationCap, FaRocket, FaStar, FaCode, FaSearch } from "react-icons/fa";
 import { MdWork } from "react-icons/md";
 import type { ReactNode } from "react";
 
@@ -21,45 +21,73 @@ export default function Timeline() {
   const experiences: Experience[] = [
     {
       id: 1,
-      year: t('timeline.experiences.current.year'),
-      title: t('timeline.experiences.current.title'),
-      company: t('timeline.experiences.current.company'),
-      description: t('timeline.experiences.current.description'),
-      technologies: ["React", "Node.js", "TypeScript", "Tailwind", "Python", "AI"],
-      icon: <AiFillEye className="text-3xl text-white" />,
+      year: t("timeline.experiences.seeking.year"),
+      title: t("timeline.experiences.seeking.title"),
+      company: t("timeline.experiences.seeking.company"),
+      description: t("timeline.experiences.seeking.description"),
+      technologies: [],
+      icon: <FaSearch className="text-3xl text-white" />,
     },
     {
       id: 2,
-      year: t('timeline.experiences.intern.year'),
-      title: t('timeline.experiences.intern.title'),
-      company: t('timeline.experiences.intern.company'),
-      description: t('timeline.experiences.intern.description'),
-      technologies: ["Oracle", "Genexus", "Microsoft Office", "Excel"],
-      icon: <MdWork className="text-3xl text-white" />,
+      year: t("timeline.experiences.current.year"),
+      title: t("timeline.experiences.current.title"),
+      company: t("timeline.experiences.current.company"),
+      description: t("timeline.experiences.current.description"),
+      technologies: [
+        "Vue 3",
+        "Pinia",
+        "Angular 21",
+        "React 18",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Ollama",
+        "llama3.2",
+        "Vite",
+        "Vercel",
+        "Render",
+      ],
+      icon: <FaCode className="text-3xl text-white" />,
     },
     {
       id: 3,
-      year: t('timeline.experiences.graduate.year'),
-      title: t('timeline.experiences.graduate.title'),
-      company: t('timeline.experiences.graduate.company'),
-      description: t('timeline.experiences.graduate.description'),
+      year: t("timeline.experiences.intern.year"),
+      title: t("timeline.experiences.intern.title"),
+      company: t("timeline.experiences.intern.company"),
+      description: t("timeline.experiences.intern.description"),
+      technologies: ["Genexus", "Oracle", "Microsoft Office", "Excel", "Scrum", "IA"],
+      icon: <MdWork className="text-3xl text-white" />,
+    },
+    {
+      id: 4,
+      year: t("timeline.experiences.graduate.year"),
+      title: t("timeline.experiences.graduate.title"),
+      company: t("timeline.experiences.graduate.company"),
+      description: t("timeline.experiences.graduate.description"),
       technologies: [
-        "Dockerfile",
-        "Figma",
-        "i18n",
-        "CI/CD",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Laravel",
+        "Docker",
         "GitHub Actions",
+        "CI/CD",
+        "Figma",
         "Vercel",
-        "Rest API",
+        "REST API",
+        "i18n",
+        "Bootstrap",
       ],
       icon: <FaGraduationCap className="text-3xl text-white" />,
     },
     {
-      id: 4,
-      year: t('timeline.experiences.junior.year'),
-      title: t('timeline.experiences.junior.title'),
-      company: t('timeline.experiences.junior.company'),
-      description: t('timeline.experiences.junior.description'),
+      id: 5,
+      year: t("timeline.experiences.junior.year"),
+      title: t("timeline.experiences.junior.title"),
+      company: t("timeline.experiences.junior.company"),
+      description: t("timeline.experiences.junior.description"),
       technologies: [
         "Java",
         "HTML",
@@ -77,6 +105,22 @@ export default function Timeline() {
         "Docker Compose",
       ],
       icon: <FaRocket className="text-3xl text-white" />,
+    },
+    {
+      id: 6,
+      year: t("timeline.experiences.arts.year"),
+      title: t("timeline.experiences.arts.title"),
+      company: t("timeline.experiences.arts.company"),
+      description: t("timeline.experiences.arts.description"),
+      technologies: [
+        "Photoshop",
+        "Illustrator",
+        "Figma",
+        "Clip Studio Paint",
+        "Procreate",
+        "Paint Tool SAI",
+      ],
+      icon: <AiFillEye className="text-3xl text-white" />,
     },
   ];
 
@@ -103,10 +147,10 @@ export default function Timeline() {
       <div className="relative z-10 container mx-auto px-4 py-20">
         <div className="text-center mb-20">
           <h2 className="text-5xl font-bold text-slate-100 mb-4 title-glow">
-            {t('timeline.title')}
+            {t("timeline.title")}
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
-            {t('timeline.subtitle')}
+            {t("timeline.subtitle")}
           </p>
         </div>
 

@@ -22,29 +22,41 @@
     "title": "Nire Bidaia Denboraren Zehar",
     "subtitle": "Nire esperientzia profesionalaren eta garatzaile gisa nire hazkundearen denbora-lerroa",
     "experiences": {
+      "seeking": {
+        "year": "Gaur egun",
+        "title": "Lan Bila",
+        "company": "Aukera berrietarako irekia",
+        "description": "Aktiboki bilatzen dut nire lehen full-stack web garatzaile postua. Hazteko, ikasteko eta nire trebetasun tekniko eta sortzaileekin balioa ekartzeko aukera ematen didaten postuetarako irekia nago."
+      },
       "current": {
-        "year": "2025-Gaur egun",
-        "title": "Full Stack Garatzailea",
-        "company": "Aukera Berriak Bilatzen",
-        "description": "Aktiboki bilatzen dut nire full-stack garapen gaitasunak aplikatu ahal izango ditudan posizio bat. Bilatzen dudan bitartean, teknologia modernoetan eta garapen-praktika onenen ikasketan jarraitzen dut."
+        "year": "2026ko Ots – Gaur egun",
+        "title": "Kode Irekiko Proiektuak",
+        "company": "DocMind · Gallifrex 2.0 · BacklogVault",
+        "description": "Hiru web aplikazio oso eta kode irekiko garatu nituen: DocMind (PDFekin txata Ollama bidezko tokiko AIarekin), Gallifrex 2.0 (nire TFGaren berridazketa Angular eta PostgreSQL erabiliz) eta BacklogVault (jokoen backlog kudeatzailea Steam integrazioarekin). Arkitektura deskoplatuak Vue 3, Angular 21, React 18 eta Node.js erabiliz."
       },
       "intern": {
-        "year": "2025",
-        "title": "Software Garapeneko Bekaduna",
+        "year": "Ira – Abe 2025",
+        "title": "Web Garatzailea",
         "company": "F10 Informática",
-        "description": "Praktikak osatu nituen, non enpresa-mailako software garapenarekin esperientzia praktikoa lortu nuen, diseinuak aplikazio funtzionaletan transformatuz eta industriako tresna estandarrak ikasten."
+        "description": "Web aplikazioak garatu nituen Genexus eta Oracle-rekin, esleitutako moduluaren %100 epean betez metodologia arinak erabiliz. Adimen artifizialeko tresnak integratu nituen lan-fluxuak optimizatzeko eta garapena bizkortzeko."
       },
       "graduate": {
-        "year": "2025",
-        "title": "Full Stack Garatzailea",
+        "year": "Eka – Ira 2025",
+        "title": "Full Stack Garatzailea – TFG Gallifrex",
         "company": "CPIFP Bajo Aragón",
-        "description": "Nire esperientzia teknikoa aplikatu eta hedatu nuen gradu-amaierako proiektu integral bat garatzeko, Gallifrex izenekoa, nire ikasketen zehar ikasitako guztia teknologia berriekin konbinatuz full-stack soluzio osoa emateko."
+        "description": "Gallifrex gradu-amaierako proiektu gisa garatu nuen: MVC/Laravel, React, Docker, CI/CD GitHub Actions-ekin eta produkzioan zabalpena dituen full-stack aplikazio osoa. Ziklo osoa kudeatu nuen Figma prototipotik zabalpena arte."
       },
       "junior": {
-        "year": "2023-2025",
+        "year": "2023 – 2025",
         "title": "Web Garatzaile Juniorra",
         "company": "CPIFP Bajo Aragón",
-        "description": "Nire programazio bidaia hasi nuen webgune erreaktiboak eraikiz eta full-stack garapena ikasten."
+        "description": "Web Aplikazioen Garapeneko goi mailako prestakuntza. Full-stack garapena ikasi nuen: frontend, backend, datu-baseak, Linux, Docker, Git eta metodologia arinak. Oinarri tekniko sendoa Java, PHP, JavaScript, MySQL eta PL/SQL-en."
+      },
+      "arts": {
+        "year": "2016 – 2020",
+        "title": "Arte Ederren Lizentziatura",
+        "company": "UCM Madrid / Universitat de Barcelona",
+        "description": "Goi mailako arte prestakuntza, nire ikuspegi sortzailea, koloreen menperatzea, konposizioa eta ikus-narratiba garatu zituena. Frontend garatzaile eta interfaze diseinatzaile gisa nire lana zuzenean aberasten duen oinarria."
       }
     },
     "technologies": "Teknologiak"
