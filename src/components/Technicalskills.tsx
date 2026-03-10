@@ -53,6 +53,10 @@ import {
   SiSass,
   SiVitest,
   SiJest,
+  SiVuedotjs,
+  SiI18Next,
+  SiOllama,
+  SiMarkdown,
 } from "react-icons/si";
 import type { ReactNode } from "react";
 import { DiMongodb, DiScrum, DiVisualstudio } from "react-icons/di";
@@ -62,7 +66,7 @@ import { BiCloudDownload } from "react-icons/bi";
 import { BiRefresh } from "react-icons/bi";
 import { ImLoop } from "react-icons/im";
 import { BsKanban } from "react-icons/bs";
-import { TbRefresh } from "react-icons/tb";
+import { TbRefresh, TbFileTypePdf } from "react-icons/tb";
 
 interface TechSkill {
   icon: ReactNode;
@@ -83,7 +87,7 @@ export default function TechnicalSkills() {
 
   const techCategories: TechCategory[] = [
     {
-      title: t('skills.categories.frontend'),
+      title: t("skills.categories.frontend"),
       gradientFrom: "from-blue-900/30",
       gradientTo: "to-cyan-900/30",
       borderColor: "border-blue-500/30",
@@ -102,6 +106,26 @@ export default function TechnicalSkills() {
           icon: <RiNextjsFill className="text-5xl" />,
           name: "Next.js",
           color: "text-cyan-300",
+        },
+        {
+          icon: <SiVuedotjs className="text-5xl" />,
+          name: "Vue 3",
+          color: "text-green-400",
+        },
+        {
+          icon: <FaDatabase className="text-5xl" />,
+          name: "Pinia",
+          color: "text-yellow-400",
+        },
+        {
+          icon: <SiVuedotjs className="text-5xl" />,
+          name: "Vue Router",
+          color: "text-emerald-400",
+        },
+        {
+          icon: <SiI18Next className="text-5xl" />,
+          name: "vue-i18n",
+          color: "text-blue-300",
         },
         {
           icon: <SiTypescript className="text-5xl" />,
@@ -164,6 +188,16 @@ export default function TechnicalSkills() {
           color: "text-pink-400",
         },
         {
+          icon: <SiMarkdown className="text-5xl" />,
+          name: "Marked.js",
+          color: "text-gray-300",
+        },
+        {
+          icon: <TbFileTypePdf className="text-5xl" />,
+          name: "PDF.js",
+          color: "text-red-400",
+        },
+        {
           icon: <SiWordpress className="text-5xl" />,
           name: "WordPress",
           color: "text-blue-400",
@@ -181,7 +215,7 @@ export default function TechnicalSkills() {
       ],
     },
     {
-      title: t('skills.categories.backend'),
+      title: t("skills.categories.backend"),
       gradientFrom: "from-green-900/30",
       gradientTo: "to-emerald-900/30",
       borderColor: "border-green-500/30",
@@ -200,6 +234,16 @@ export default function TechnicalSkills() {
           icon: <FaLock className="text-5xl" />,
           name: "JWT",
           color: "text-yellow-400",
+        },
+        {
+          icon: <SiOllama className="text-5xl" />,
+          name: "Ollama",
+          color: "text-gray-200",
+        },
+        {
+          icon: <FaDatabase className="text-5xl" />,
+          name: "llama3.2",
+          color: "text-purple-300",
         },
         {
           icon: <FaPython className="text-5xl" />,
@@ -244,7 +288,7 @@ export default function TechnicalSkills() {
       ],
     },
     {
-      title: t('skills.categories.devops'),
+      title: t("skills.categories.devops"),
       gradientFrom: "from-slate-900/30",
       gradientTo: "to-gray-900/30",
       borderColor: "border-slate-500/30",
@@ -307,7 +351,7 @@ export default function TechnicalSkills() {
       ],
     },
     {
-      title: t('skills.categories.database'),
+      title: t("skills.categories.database"),
       gradientFrom: "from-purple-900/30",
       gradientTo: "to-pink-900/30",
       borderColor: "border-purple-500/30",
@@ -365,7 +409,7 @@ export default function TechnicalSkills() {
       ],
     },
     {
-      title: t('skills.categories.tools'),
+      title: t("skills.categories.tools"),
       gradientFrom: "from-amber-900/30",
       gradientTo: "to-yellow-900/30",
       borderColor: "border-amber-500/30",
@@ -438,7 +482,7 @@ export default function TechnicalSkills() {
       ],
     },
     {
-      title: t('skills.categories.design'),
+      title: t("skills.categories.design"),
       gradientFrom: "from-pink-900/30",
       gradientTo: "to-rose-900/30",
       borderColor: "border-pink-500/30",
@@ -505,10 +549,10 @@ export default function TechnicalSkills() {
       <div className="relative z-10 container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl font-bold text-slate-100 mb-4 title-glow">
-            {t('skills.title')}
+            {t("skills.title")}
           </h2>
           <p className="text-slate-400 text-lg max-w-3xl mx-auto">
-            {t('skills.subtitle')}
+            {t("skills.subtitle")}
           </p>
         </div>
 
