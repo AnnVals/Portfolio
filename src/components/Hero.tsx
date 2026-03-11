@@ -225,7 +225,8 @@ export default function Hero() {
                       {t('hero.description')}
                     </p>
 
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start flex-wrap">
+
                       <a
                         href="/CVAngelaCentelles26.pdf"
                         download
@@ -246,6 +247,28 @@ export default function Hero() {
                         </svg>
                         {t('hero.downloadCV')}
                       </a>
+
+                      <a
+                        href="/CVAngelaCentelles26ENG.pdf"
+                        download
+                        className="bg-indigo-800 hover:bg-indigo-700 text-slate-100 px-6 py-3 rounded-md transform hover:scale-105 transition duration-300 font-medium flex items-center justify-center gap-2 border border-indigo-600"
+                      >
+                        <svg
+                          className="w-5 h-5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                          />
+                        </svg>
+                        {t('hero.downloadCVEN')}
+                      </a>
+
                       <a
                         href="mailto:anceninpil@gmail.com"
                         className="bg-slate-800 border border-slate-600 text-slate-300 px-6 py-3 rounded-md hover:bg-slate-700 transform hover:scale-105 transition duration-300 font-medium text-center"

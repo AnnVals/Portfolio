@@ -3,7 +3,8 @@
     "name": "Ángela P. Centelles Insa",
     "title": "Développeuse Web Full Stack & Designer | Illustratrice",
     "description": "Développeuse full-stack passionnée avec une vision artistique. Mon objectif est de combiner frontend, backend, bases de données, frameworks et IA pour offrir des solutions robustes et créatives.",
-    "downloadCV": "Télécharger mon CV",
+    "downloadCV": "Télécharger mon CV en français",
+    "downloadCVEN": "Télécharger mon CV en anglais",
     "contact": "Contactez-moi"
   },
   "skills": {
