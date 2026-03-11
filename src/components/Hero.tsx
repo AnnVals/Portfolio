@@ -200,7 +200,7 @@ export default function Hero() {
                         <div className="w-full h-full rounded-2xl bg-slate-900 flex items-center justify-center overflow-hidden">
                           <img
                             src="/Yo.jpg"
-                            alt={t('hero.name')}
+                            alt={t("hero.name")}
                             className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-300"
                           />
                         </div>
@@ -215,65 +215,66 @@ export default function Hero() {
 
                   <div className="flex-1 text-center md:text-left">
                     <h1 className="text-4xl font-bold mb-3 text-slate-100">
-                      {t('hero.name')}
+                      {t("hero.name")}
                     </h1>
                     <p className="text-slate-400 font-medium mb-5 text-lg">
-                      {t('hero.title')}
+                      {t("hero.title")}
                     </p>
 
                     <p className="text-slate-300 mb-8 leading-relaxed">
-                      {t('hero.description')}
+                      {t("hero.description")}
                     </p>
 
-                    <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start flex-wrap">
-
-                      <a
-                        href="/CVAngelaCentelles26.pdf"
-                        download
-                        className="bg-slate-700 hover:bg-slate-600 text-slate-100 px-6 py-3 rounded-md transform hover:scale-105 transition duration-300 font-medium flex items-center justify-center gap-2 border border-slate-600"
-                      >
-                        <svg
-                          className="w-5 h-5"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
+                    <div className="flex flex-col gap-3 justify-center md:justify-start">
+                      <div className="flex flex-col sm:flex-row gap-3">
+                        <a
+                          href="/CVAngelaCentelles26.pdf"
+                          download
+                          className="bg-slate-700 hover:bg-slate-600 text-slate-100 px-6 py-3 rounded-md transform hover:scale-105 transition duration-300 font-medium flex items-center justify-center gap-2 border border-slate-600"
                         >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                          />
-                        </svg>
-                        {t('hero.downloadCV')}
-                      </a>
+                          <svg
+                            className="w-5 h-5"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth={2}
+                              d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                            />
+                          </svg>
+                          {t("hero.downloadCV")}
+                        </a>
 
-                      <a
-                        href="/CVAngelaCentelles26ENG.pdf"
-                        download
-                        className="bg-indigo-800 hover:bg-indigo-700 text-slate-100 px-6 py-3 rounded-md transform hover:scale-105 transition duration-300 font-medium flex items-center justify-center gap-2 border border-indigo-600"
-                      >
-                        <svg
-                          className="w-5 h-5"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
+                        <a
+                          href="/CVAngelaCentelles26ENG.pdf"
+                          download
+                          className="bg-indigo-800 hover:bg-indigo-700 text-slate-100 px-6 py-3 rounded-md transform hover:scale-105 transition duration-300 font-medium flex items-center justify-center gap-2 border border-indigo-600"
                         >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-                          />
-                        </svg>
-                        {t('hero.downloadCVEN')}
-                      </a>
+                          <svg
+                            className="w-5 h-5"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth={2}
+                              d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                            />
+                          </svg>
+                          {t("hero.downloadCVEN")}
+                        </a>
+                      </div>
 
                       <a
                         href="mailto:anceninpil@gmail.com"
                         className="bg-slate-800 border border-slate-600 text-slate-300 px-6 py-3 rounded-md hover:bg-slate-700 transform hover:scale-105 transition duration-300 font-medium text-center"
                       >
-                        {t('hero.contact')}
+                        {t("hero.contact")}
                       </a>
                     </div>
                   </div>
