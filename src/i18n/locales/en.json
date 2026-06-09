@@ -16,7 +16,8 @@
       "devops": "DevOps & Infrastructure",
       "database": "Database",
       "tools": "Development Tools & Methodologies",
-      "design": "Design & Creative"
+      "design": "Design & Creative",
+      "mainframe": "Mainframe"
     }
   },
   "timeline": {
@@ -60,7 +61,7 @@
         "description": "Higher arts education that developed my creative vision, mastery of color, composition and visual storytelling. A foundation that directly enriches my work as a frontend developer and interface designer."
       },
       "mainframe": {
-        "year": "2025",
+        "year": "2026",
         "title": "Mainframe Training",
         "company": "inTalent Program – Luca Soluciones en TIC",
         "description": "Intensive 240-hour (30-day) hands-on training program in IBM Mainframe technologies. Covered z/OS, TSO/ISPF, JCL, COBOL/BATCH, COBOL/DB2 and Copilot for COBOL, coding over 100 programs and 150 JCL's. Training simulated a real work environment with 24x7 access to a virtual Mainframe desktop."

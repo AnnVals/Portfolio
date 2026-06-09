@@ -16,7 +16,8 @@
       "devops": "DevOps & Infrastructure",
       "database": "Base de Données",
       "tools": "Outils de Développement & Méthodologies",
-      "design": "Design & Créativité"
+      "design": "Design & Créativité",
+      "mainframe": "Mainframe"
     }
   },
   "timeline": {
@@ -60,7 +61,7 @@
         "description": "Formation artistique supérieure qui a développé ma vision créative, la maîtrise des couleurs, la composition et la narration visuelle. Une base qui enrichit directement mon travail en tant que développeuse frontend et designer d'interfaces."
       },
       "mainframe": {
-        "year": "2025",
+        "year": "2026",
         "title": "Formation Mainframe",
         "company": "inTalent Program – Luca Soluciones en TIC",
         "description": "Programme de formation intensif de 240 heures (30 journées) en technologies Mainframe IBM. J'ai couvert z/OS, TSO/ISPF, JCL, COBOL/BATCH, COBOL/DB2 et Copilot pour COBOL, en codant plus de 100 programmes et 150 JCL's. La formation a simulé un environnement de travail réel avec accès 24x7 à un bureau virtuel Mainframe."

@@ -16,7 +16,8 @@
       "devops": "DevOps & Azpiegitura",
       "database": "Datu-basea",
       "tools": "Garapen Tresnak & Metodologiak",
-      "design": "Diseinua & Sormena"
+      "design": "Diseinua & Sormena",
+      "mainframe": "Mainframe"
     }
   },
   "timeline": {
@@ -60,7 +61,7 @@
         "description": "Goi mailako arte prestakuntza, nire ikuspegi sortzailea, koloreen menperatzea, konposizioa eta ikus-narratiba garatu zituena. Frontend garatzaile eta interfaze diseinatzaile gisa nire lana zuzenean aberasten duen oinarria."
       },
       "mainframe": {
-        "year": "2025",
+        "year": "2026",
         "title": "Mainframe Prestakuntza",
         "company": "inTalent Program – Luca Soluciones en TIC",
         "description": "IBM Mainframe teknologietan 240 orduko (30 eguneko) prestakuntza praktiko intentsiboa. z/OS, TSO/ISPF, JCL, COBOL/BATCH, COBOL/DB2 eta COBOL-erako Copilot landu nituen, 100 programa eta 150 JCL baino gehiago kodifikatuz. Prestakeuntza benetako lan-ingurune bat simulatu zuen, Mainframe mahaigain birtual batera 24x7 sarbidearekin."
