@@ -198,5 +198,11 @@
       "developedBy": "Developed by",
       "rights": "All rights reserved"
     }
+  },
+  "mainframe": {
+    "year": "2025",
+    "title": "Mainframe Training",
+    "company": "inTalent Program – Luca Soluciones en TIC",
+    "description": "Intensive 240-hour (30-day) hands-on training program in IBM Mainframe technologies. Covered z/OS, TSO/ISPF, JCL, COBOL/BATCH, COBOL/DB2 and Copilot for COBOL, coding over 100 programs and 150 JCL's. Training simulated a real work environment with 24x7 access to a virtual Mainframe desktop."
   }
 }

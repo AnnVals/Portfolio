@@ -18,6 +18,8 @@ import {
   FaWordpress,
   FaAngular,
   FaLock,
+  FaServer,
+  FaTerminal,
 } from "react-icons/fa";
 import {
   SiTypescript,
@@ -57,6 +59,7 @@ import {
   SiI18Next,
   SiOllama,
   SiMarkdown,
+  SiAcm,
 } from "react-icons/si";
 import type { ReactNode } from "react";
 import { DiMongodb, DiScrum, DiVisualstudio } from "react-icons/di";
@@ -67,6 +70,7 @@ import { BiRefresh } from "react-icons/bi";
 import { ImLoop } from "react-icons/im";
 import { BsKanban } from "react-icons/bs";
 import { TbRefresh, TbFileTypePdf } from "react-icons/tb";
+import { MdStorage, MdComputer } from "react-icons/md";
 
 interface TechSkill {
   icon: ReactNode;
@@ -284,6 +288,79 @@ export default function TechnicalSkills() {
           icon: <FaPaintBrush className="text-5xl" />,
           name: "Plugins Dev",
           color: "text-green-300",
+        },
+      ],
+    },
+    {
+      title: t("skills.categories.mainframe"),
+      gradientFrom: "from-zinc-900/30",
+      gradientTo: "to-neutral-900/30",
+      borderColor: "border-zinc-500/30",
+      skills: [
+        {
+          icon: <FaServer className="text-5xl" />,
+          name: "COBOL",
+          color: "text-blue-300",
+        },
+        {
+          icon: <FaServer className="text-5xl" />,
+          name: "COBOL/BATCH",
+          color: "text-blue-400",
+        },
+        {
+          icon: <FaDatabase className="text-5xl" />,
+          name: "COBOL/DB2",
+          color: "text-cyan-400",
+        },
+        {
+          icon: <FaTerminal className="text-5xl" />,
+          name: "JCL",
+          color: "text-yellow-300",
+        },
+        {
+          icon: <SiAcm className="text-5xl" />,
+          name: "z/OS",
+          color: "text-blue-500",
+        },
+        {
+          icon: <MdComputer className="text-5xl" />,
+          name: "TSO/ISPF",
+          color: "text-indigo-300",
+        },
+        {
+          icon: <FaDatabase className="text-5xl" />,
+          name: "DB2",
+          color: "text-cyan-300",
+        },
+        {
+          icon: <FaDatabase className="text-5xl" />,
+          name: "SQL (DB2)",
+          color: "text-sky-300",
+        },
+        {
+          icon: <FaDatabase className="text-5xl" />,
+          name: "SPUFI / QMF",
+          color: "text-teal-300",
+        },
+        {
+          icon: <MdStorage className="text-5xl" />,
+          name: "VSAM / KSDS",
+          color: "text-green-300",
+        },
+        {
+          icon: <FaTerminal className="text-5xl" />,
+          name: "SORT / IDCAMS",
+          color: "text-amber-300",
+        },
+        {
+          icon: <FaTerminal className="text-5xl" />,
+          name: "SDSF",
+          color: "text-orange-300",
+        },
+        {
+          icon: <GoCopilot className="text-5xl" />,
+          name: "Copilot p/ COBOL",
+          color: "text-green-400",
         },
       ],
     },

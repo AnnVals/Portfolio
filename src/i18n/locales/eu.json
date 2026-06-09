@@ -198,5 +198,11 @@
       "developedBy": "Honek garatua:",
       "rights": "Eskubide guztiak erreserbatuak"
     }
+  },
+  "mainframe": {
+    "year": "2025",
+    "title": "Mainframe Prestakuntza",
+    "company": "inTalent Program – Luca Soluciones en TIC",
+    "description": "IBM Mainframe teknologietan 240 orduko (30 eguneko) prestakuntza praktiko intentsiboa. z/OS, TSO/ISPF, JCL, COBOL/BATCH, COBOL/DB2 eta COBOL-erako Copilot landu nituen, 100 programa eta 150 JCL baino gehiago kodifikatuz. Prestakeuntza benetako lan-ingurune bat simulatu zuen, Mainframe mahaigain birtual batera 24x7 sarbidearekin."
   }
 }

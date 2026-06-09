@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import "./Timeline.css";
 import { AiFillEye } from "react-icons/ai";
-import { FaGraduationCap, FaRocket, FaStar, FaCode, FaSearch } from "react-icons/fa";
+import { FaGraduationCap, FaRocket, FaStar, FaCode, FaSearch, FaServer } from "react-icons/fa";
 import { MdWork } from "react-icons/md";
 import type { ReactNode } from "react";
 
@@ -30,6 +30,31 @@ export default function Timeline() {
     },
     {
       id: 2,
+      year: t("timeline.experiences.mainframe.year"),
+      title: t("timeline.experiences.mainframe.title"),
+      company: t("timeline.experiences.mainframe.company"),
+      description: t("timeline.experiences.mainframe.description"),
+      technologies: [
+        "COBOL",
+        "COBOL/BATCH",
+        "COBOL/DB2",
+        "JCL",
+        "z/OS",
+        "TSO/ISPF",
+        "DB2",
+        "SQL (DB2)",
+        "SPUFI",
+        "QMF",
+        "VSAM",
+        "SORT",
+        "IDCAMS",
+        "SDSF",
+        "Copilot para COBOL",
+      ],
+      icon: <FaServer className="text-3xl text-white" />,
+    },
+    {
+      id: 3,
       year: t("timeline.experiences.current.year"),
       title: t("timeline.experiences.current.title"),
       company: t("timeline.experiences.current.company"),
@@ -52,7 +77,7 @@ export default function Timeline() {
       icon: <FaCode className="text-3xl text-white" />,
     },
     {
-      id: 3,
+      id: 4,
       year: t("timeline.experiences.intern.year"),
       title: t("timeline.experiences.intern.title"),
       company: t("timeline.experiences.intern.company"),
@@ -61,7 +86,7 @@ export default function Timeline() {
       icon: <MdWork className="text-3xl text-white" />,
     },
     {
-      id: 4,
+      id: 5,
       year: t("timeline.experiences.graduate.year"),
       title: t("timeline.experiences.graduate.title"),
       company: t("timeline.experiences.graduate.company"),
@@ -83,7 +108,7 @@ export default function Timeline() {
       icon: <FaGraduationCap className="text-3xl text-white" />,
     },
     {
-      id: 5,
+      id: 6,
       year: t("timeline.experiences.junior.year"),
       title: t("timeline.experiences.junior.title"),
       company: t("timeline.experiences.junior.company"),
@@ -107,7 +132,7 @@ export default function Timeline() {
       icon: <FaRocket className="text-3xl text-white" />,
     },
     {
-      id: 6,
+      id: 7,
       year: t("timeline.experiences.arts.year"),
       title: t("timeline.experiences.arts.title"),
       company: t("timeline.experiences.arts.company"),
