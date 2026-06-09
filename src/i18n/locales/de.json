@@ -58,6 +58,12 @@
         "title": "Bachelor in Bildenden Künsten",
         "company": "UCM Madrid / Universitat de Barcelona",
         "description": "Höhere Kunstausbildung, die meine kreative Vision, Farbbeherrschung, Komposition und visuelles Storytelling entwickelte. Eine Grundlage, die meine Arbeit als Frontend-Entwicklerin und Interface-Designerin direkt bereichert."
+      },
+      "mainframe": {
+        "year": "2025",
+        "title": "Mainframe-Ausbildung",
+        "company": "inTalent Program – Luca Soluciones en TIC",
+        "description": "Intensives 240-stündiges (30-tägiges) Praxistraining in IBM Mainframe-Technologien. Behandelt wurden z/OS, TSO/ISPF, JCL, COBOL/BATCH, COBOL/DB2 und Copilot für COBOL, mit der Entwicklung von über 100 Programmen und 150 JCL's. Das Training simulierte eine reale Arbeitsumgebung mit 24x7-Zugang zu einem virtuellen Mainframe-Desktop."
       }
     },
     "technologies": "Technologien"
@@ -198,11 +204,5 @@
       "developedBy": "Entwickelt von",
       "rights": "Alle Rechte vorbehalten"
     }
-  },
-  "mainframe": {
-    "year": "2025",
-    "title": "Mainframe-Ausbildung",
-    "company": "inTalent Program – Luca Soluciones en TIC",
-    "description": "Intensives 240-stündiges (30-tägiges) Praxistraining in IBM Mainframe-Technologien. Behandelt wurden z/OS, TSO/ISPF, JCL, COBOL/BATCH, COBOL/DB2 und Copilot für COBOL, mit der Entwicklung von über 100 Programmen und 150 JCL's. Das Training simulierte eine reale Arbeitsumgebung mit 24x7-Zugang zu einem virtuellen Mainframe-Desktop."
   }
 }

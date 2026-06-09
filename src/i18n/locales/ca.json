@@ -58,6 +58,12 @@
         "title": "Grau en Belles Arts",
         "company": "UCM Madrid / Universitat de Barcelona",
         "description": "Formació artística superior que va desenvolupar la meva visió creativa, domini del color, composició i narrativa visual. Una base que enriqueix directament el meu treball com a desenvolupadora frontend i dissenyadora d'interfícies."
+      },
+      "mainframe": {
+        "year": "2025",
+        "title": "Formació Mainframe",
+        "company": "inTalent Program – Luca Soluciones en TIC",
+        "description": "Programa intensiu de 240 hores (30 jornades) de formació pràctica en tecnologies Mainframe d'IBM. Vaig cobrir z/OS, TSO/ISPF, JCL, COBOL/BATCH, COBOL/DB2 i Copilot per a COBOL, codificant més de 100 programes i 150 JCL's. La formació va simular un entorn laboral real amb accés 24x7 a un escriptori virtual Mainframe."
       }
     },
     "technologies": "Tecnologies"
@@ -198,11 +204,5 @@
       "developedBy": "Desenvolupat per",
       "rights": "Tots els drets reservats"
     }
-  },
-  "mainframe": {
-    "year": "2025",
-    "title": "Formació Mainframe",
-    "company": "inTalent Program – Luca Soluciones en TIC",
-    "description": "Programa intensiu de 240 hores (30 jornades) de formació pràctica en tecnologies Mainframe d'IBM. Vaig cobrir z/OS, TSO/ISPF, JCL, COBOL/BATCH, COBOL/DB2 i Copilot per a COBOL, codificant més de 100 programes i 150 JCL's. La formació va simular un entorn laboral real amb accés 24x7 a un escriptori virtual Mainframe."
   }
 }
